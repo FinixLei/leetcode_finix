@@ -1,4 +1,4 @@
-# leatcode_finix
+# leetcode_finix
 
 This repository is only to collect the problems solved by myself in LeetCode. 
 
