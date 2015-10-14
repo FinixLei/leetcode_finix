@@ -39,6 +39,13 @@ This repository is only to collect the problems solved by myself in LeetCode.
 	</tr>
 
 	<tr>
+		<td>289</td>
+		<td>medium</td>
+		<td>C++</td>
+		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/289_medium_GameOfLife.cpp">Game Of Life</a></td>
+	</tr>
+
+	<tr>
 		<td>290</td>
 		<td>easy</td>
 		<td>C++</td>
