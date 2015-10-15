@@ -11,6 +11,13 @@ This repository is only to collect the problems solved by myself in LeetCode.
 	</tr>
 
 	<tr>
+		<td>1</td>
+		<td>medium</td>
+		<td>C++</td>
+		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/1_medium_TwoSum.cpp">Two Sum</a></td>
+	</tr>
+    
+	<tr>
 		<td>226</td>
 		<td>easy</td>
 		<td>C++</td>
