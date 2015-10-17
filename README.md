@@ -23,6 +23,13 @@ This repository is only to collect the problems solved by myself in LeetCode.
 		<td>C++</td>
 		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.cpp">Add Two Numbers</a></td>
 	</tr>
+
+	<tr>
+		<td>3</td>
+		<td>medium</td>
+		<td>C++</td>
+		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/3_medium_LongestSubstringWithoutRepeatedCharacters.cpp">Longest Substring Without Repeated Characters</a></td>
+	</tr>
     
 	<tr>
 		<td>226</td>
