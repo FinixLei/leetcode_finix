@@ -35,7 +35,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
 		<td>4</td>
 		<td>hard</td>
 		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/4_hard_MedianOfTwoSortedArrays.cpp">Median of Two Sorted Arrays</a></td>
+		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/4_hard_MedianOfTwoSortedArrays.cpp">Median of Two Sorted Arrays</a>, <a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/4_hard_MedianOfTwoSortedArrays_way2.cpp">Way 2 for Median of Two Sorted Arrays</a></td>
 	</tr>
     
 	<tr>
