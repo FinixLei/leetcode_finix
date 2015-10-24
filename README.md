@@ -44,6 +44,13 @@ This repository is only to collect the problems solved by myself in LeetCode.
 		<td>C++</td>
 		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/5_medium_LongestPalindromicSubstring.cpp">Longest Palindromic Substring</a></td>
 	</tr>
+
+	<tr>
+		<td>6</td>
+		<td>easy</td>
+		<td>C++</td>
+		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/6_easy_ZigZagConversion.cpp">ZigZag Conversion</a></td>
+	</tr>
     
 	<tr>
 		<td>226</td>
