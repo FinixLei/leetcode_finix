@@ -51,6 +51,13 @@ This repository is only to collect the problems solved by myself in LeetCode.
 		<td>C++</td>
 		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/6_easy_ZigZagConversion.cpp">ZigZag Conversion</a></td>
 	</tr>
+
+	<tr>
+		<td>7</td>
+		<td>easy</td>
+		<td>C++</td>
+		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/7_easy_ReverseInteger.cpp">Reverse Integer</a></td>
+	</tr>
     
 	<tr>
 		<td>226</td>
