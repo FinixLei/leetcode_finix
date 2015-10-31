@@ -58,6 +58,13 @@ This repository is only to collect the problems solved by myself in LeetCode.
 		<td>C++</td>
 		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/7_easy_ReverseInteger.cpp">Reverse Integer</a></td>
 	</tr>
+
+	<tr>
+		<td>8</td>
+		<td>easy</td>
+		<td>C++</td>
+		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/8_easy_StringToInteger_atoi.cpp">String to Integer (atoi)</a></td>
+	</tr>
     
 	<tr>
 		<td>226</td>
