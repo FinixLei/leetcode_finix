@@ -72,12 +72,40 @@ This repository is only to collect the problems solved by myself in LeetCode.
 		<td>C++</td>
 		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/9_easy_PalindromeNumber.cpp">Palindrome Number</a></td>
 	</tr>
+
+	<tr>
+		<td>10</td>
+		<td>hard</td>
+		<td>C++</td>
+		<td>Regular Expression Matching</td>
+	</tr>
     
 	<tr>
 		<td>11</td>
 		<td>medium</td>
 		<td>C++</td>
 		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/11_medium_ContainerWithMostWater.cpp">Container With Most Water</a></td>
+	</tr>
+
+	<tr>
+		<td>12</td>
+		<td>medium</td>
+		<td>C++</td>
+		<td>Integer to Roman</td>
+	</tr>
+
+	<tr>
+		<td>13</td>
+		<td>easy</td>
+		<td>C++</td>
+		<td>Roman to Integer</td>
+	</tr>
+
+	<tr>
+		<td>14</td>
+		<td>easy</td>
+		<td>C++</td>
+		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/14_easy_LongestCommonPrefix.cpp">Longest Common Prefix</a></td>
 	</tr>
     
 	<tr>
