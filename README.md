@@ -14,7 +14,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
 		<td>1</td>
 		<td>medium</td>
 		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.cpp">Two Sum</a></td>
+		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.cpp">Two Sum</a>， <a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way2.cpp">Way 2 for Two Sum</a></td>
 	</tr>
 
 	<tr>
