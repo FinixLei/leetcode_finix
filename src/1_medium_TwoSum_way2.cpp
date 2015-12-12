@@ -6,14 +6,12 @@ using namespace std;
 vector<int> twoSum(vector<int>& nums, int target) {
     std::map<int, int> cache;
     
-    int size = nums.size();
-    for (int i=0; i<size; ++i) {
+    for (int i=0; i<nums.size(); ++i) {
         cache[nums[i]] = i;
     }
     
-    int need;
-    for (int i=0; i<size; ++i) {
-        need = target - nums[i];
+    for (int i=0; i<nums.size(); ++i) {
+        int need = target - nums[i];
         if (cache.count(need) > 0 && cache[need] != i) {
             vector<int> result{i+1, cache[need]+1};
             return result;
