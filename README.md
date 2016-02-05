@@ -107,6 +107,13 @@ This repository is only to collect the problems solved by myself in LeetCode.
 		<td>C++</td>
 		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/14_easy_LongestCommonPrefix.cpp">Longest Common Prefix</a></td>
 	</tr>
+	
+	<tr>
+		<td>15</td>
+		<td>medium</td>
+		<td>C++</td>
+		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/15_medium_3Sum.cpp">3 Sum</a></td>
+	</tr>
     
 	<tr>
 		<td>226</td>
