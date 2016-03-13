@@ -10,7 +10,7 @@
 #include <vector>
 using namespace std;
 
-int threeSumClosest_way1(vector<int>& nums, int target) {
+int threeSumClosest_way1(vector<int>& nums, int target) {  // my own way, pass, 286ms
     sort(nums.begin(), nums.end());
     
     int dist = 99999;
@@ -47,7 +47,7 @@ int threeSumClosest_way1(vector<int>& nums, int target) {
     return sum;
 }
 
-int threeSumClosest_way2(vector<int>& nums, int target) {
+int threeSumClosest_way2(vector<int>& nums, int target) { // reference to haochen, pass, 12ms
     sort(nums.begin(), nums.end());
     
     int dist = 2147483647;
