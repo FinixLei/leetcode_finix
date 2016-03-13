@@ -50,35 +50,49 @@ int threeSumClosest_way1(vector<int>& nums, int target) {
 int threeSumClosest_way2(vector<int>& nums, int target) {
     sort(nums.begin(), nums.end());
     
-    int distance = 9999;
-    // int size = nums.size();
-    // 
-    // int start = 0;
-    // int end = size - 1;
-    // int third = 1;
-    // 
-    // for (int i=0; i<size-2; ++i) {
-    //     for (int j=i+1; j<size-1; ++j) {
-    //         for (int k=j+1; k<size; ++k) {
-    //             int tmp = nums[i] + nums[j] + nums[k] - target; 
-    //             tmp = tmp > 0 ? tmp : -tmp; 
-    //             if (tmp < distance) {
-    //                 distance = tmp;
-    //             }
-    //         }
-    //     }
-    // }
+    int dist = 2147483647;
+    int sum = -1;
+    int size = nums.size();
     
-    return distance;
+    for (int i=0; i<size-2; ++i) {
+        int low = i + 1;
+        int high = size - 1;
+        int a = nums[i];
+        
+        while (low < high) {
+            int b = nums[low];
+            int c = nums[high];
+            
+            int tmp_sum = a + b + c;
+            int tmp_dist = abs(target - tmp_sum);
+            
+            if (tmp_dist == 0) {
+                return target;
+            }
+            else {
+                if (tmp_dist < dist) {
+                    dist = tmp_dist;
+                    sum = tmp_sum;
+                }
+                
+                if (tmp_sum - target > 0)
+                    --high;
+                else
+                    ++low;
+            }
+        }
+    }
+    
+    return sum;
 }
 
 int main() 
 {
-    vector<int> vec = {10, 20, 30, 13, 15, 17, 22, 58};
+    vector<int> vec = {1,2,4,8,16,32,64,128};
     // vector<int> vec = {0, 0, 0};
-    int target = 1000;
+    int target = 82;
     
-    int result = threeSumClosest_way1(vec, target);
+    int result = threeSumClosest_way2(vec, target);
     cout << "result = " << result << endl;
     
     return 0;
