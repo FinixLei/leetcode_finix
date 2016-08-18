@@ -128,6 +128,13 @@ This repository is only to collect the problems solved by myself in LeetCode.
 		<td>C++</td>
 		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/17_medium_LettersCombinations.cpp">Letters Combinations</a></td>
 	</tr>
+    
+    <tr>
+		<td>19</td>
+		<td>easy</td>
+		<td>C++</td>
+		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/19_easy_removeNthNodeFromEndOfList.cpp">Remove Nth node from end of list</a></td>
+	</tr>
 
 	<tr>
 		<td>226</td>
