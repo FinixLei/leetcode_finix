@@ -142,6 +142,13 @@ This repository is only to collect the problems solved by myself in LeetCode.
 		<td>C++</td>
 		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/20_easy_validParentheses.cpp">Valid Parentheses</a></td>
 	</tr>
+    
+    <tr>
+		<td>21</td>
+		<td>easy</td>
+		<td>C++</td>
+		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/21_easy_MergeTwoSortedLists.cpp">Merge Two Sorted Lists</a></td>
+	</tr>
 
 	<tr>
 		<td>226</td>
