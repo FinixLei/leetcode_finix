@@ -2,201 +2,33 @@
 
 This repository is only to collect the problems solved by myself in LeetCode. 
 
-<table>
-	<tr>
-		<td>No.</td>
-		<td>Level</td>
-		<td>language</td>
-		<td>Title</td>
-	</tr>
 
-	<tr>
-		<td>1</td>
-		<td>medium</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.cpp">Two Sum</a>， <a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way2.cpp">Way 2</a></td>
-	</tr>
-
-	<tr>
-		<td>2</td>
-		<td>medium</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.cpp">Add Two Numbers</a></td>
-	</tr>
-
-	<tr>
-		<td>3</td>
-		<td>medium</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/3_medium_LongestSubstringWithoutRepeatingCharacters.cpp">Longest Substring Without Repeated Characters</a></td>
-	</tr>
-
-	<tr>
-		<td>4</td>
-		<td>hard</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/4_hard_MedianOfTwoSortedArrays.cpp">Median of Two Sorted Arrays</a>, <a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/4_hard_MedianOfTwoSortedArrays_way2.cpp">Way 2</a></td>
-	</tr>
-
-	<tr>
-		<td>5</td>
-		<td>medium</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/5_medium_LongestPalindromicSubstring.cpp">Longest Palindromic Substring</a></td>
-	</tr>
-
-	<tr>
-		<td>6</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/6_easy_ZigZagConversion.cpp">ZigZag Conversion</a></td>
-	</tr>
-
-	<tr>
-		<td>7</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/7_easy_ReverseInteger.cpp">Reverse Integer</a></td>
-	</tr>
-
-	<tr>
-		<td>8</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/8_easy_StringToInteger_atoi.cpp">String to Integer (atoi)</a></td>
-	</tr>
-    
-	<tr>
-		<td>9</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/9_easy_PalindromeNumber.cpp">Palindrome Number</a></td>
-	</tr>
-
-	<tr>
-		<td>10</td>
-		<td>hard</td>
-		<td>C++</td>
-		<td>Regular Expression Matching</td>
-	</tr>
-    
-	<tr>
-		<td>11</td>
-		<td>medium</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/11_medium_ContainerWithMostWater.cpp">Container With Most Water</a></td>
-	</tr>
-
-	<tr>
-		<td>12</td>
-		<td>medium</td>
-		<td>C++</td>
-		<td>Integer to Roman</td>
-	</tr>
-
-	<tr>
-		<td>13</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td>Roman to Integer</td>
-	</tr>
-
-	<tr>
-		<td>14</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/14_easy_LongestCommonPrefix.cpp">Longest Common Prefix</a></td>
-	</tr>
-	
-	<tr>
-		<td>15</td>
-		<td>medium</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/15_medium_3Sum.cpp">3 Sum</a></td>
-	</tr>
-    
-	<tr>
-		<td>16</td>
-		<td>medium</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/16_medium_3Sum_closest.cpp">3 Sum Closest</a></td>
-	</tr>
-
-	<tr>
-		<td>17</td>
-		<td>medium</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/17_medium_LettersCombinations.cpp">Letters Combinations</a></td>
-	</tr>
-    
-    <tr>
-		<td>19</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/19_easy_removeNthNodeFromEndOfList.cpp">Remove Nth node from end of list</a></td>
-	</tr>
-    
-    <tr>
-		<td>20</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/20_easy_validParentheses.cpp">Valid Parentheses</a></td>
-	</tr>
-    
-    <tr>
-		<td>21</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/21_easy_MergeTwoSortedLists.cpp">Merge Two Sorted Lists</a></td>
-	</tr>
-
-	<tr>
-		<td>226</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp">Invert Binary Tree</a></td>
-	</tr>
-
-	<tr>
-		<td>242</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp">Valid Anagram</a></td>
-	</tr>
-
-	<tr>
-		<td>258</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/258_easy_AddDigits.cpp">Add Digits</a></td>
-	</tr>
-
-	<tr>
-		<td>263</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/263_easy_UglyNumber.cpp">Ugly Number</a></td>
-	</tr>
-
-	<tr>
-		<td>289</td>
-		<td>medium</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/289_medium_GameOfLife.cpp">Game Of Life</a></td>
-	</tr>
-
-	<tr>
-		<td>290</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/290_easy_WordPattern.cpp">Word Pattern</a></td>
-	</tr>
-
-	<tr>
-		<td>292</td>
-		<td>easy</td>
-		<td>C++</td>
-		<td><a href="https://github.com/FinixLei/leetcode_finix/blob/master/src/292_easy_NimGame.cpp">Nim Game</a></td>
-	</tr>
-
-</table>
+ id |  type  | language | link 
+----|--------|----------|-------- 
+ 1  | medium |   C++    | [Two Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way2.cpp)
+ 2  | medium |   C++    | [Add Two Numbers](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.cpp)
+ 3  | medium |   C++    | [Longest Substring Without Repeated Characters] (https://github.com/FinixLei/leetcode_finix/blob/master/src/3_medium_LongestSubstringWithoutRepeatingCharacters.cpp)
+ 4  | medium |   C++    | [Median of Two Sorted Arrays](https://github.com/FinixLei/leetcode_finix/blob/master/src/4_hard_MedianOfTwoSortedArrays.cpp)
+ 5  | medium |   C++    | [Longest Palindromic Substring](https://github.com/FinixLei/leetcode_finix/blob/master/src/5_medium_LongestPalindromicSubstring.cpp)
+ 6  | medium |   C++    | [ZigZag Conversion](https://github.com/FinixLei/leetcode_finix/blob/master/src/6_easy_ZigZagConversion.cpp)
+ 7  | medium |   C++    | [Reverse Integer](https://github.com/FinixLei/leetcode_finix/blob/master/src/7_easy_ReverseInteger.cpp)
+ 8  | medium |   C++    | [String to Integer (atoi)](https://github.com/FinixLei/leetcode_finix/blob/master/src/8_easy_StringToInteger_atoi.cpp)
+ 9  | medium |   C++    | [Palindrome Number](https://github.com/FinixLei/leetcode_finix/blob/master/src/9_easy_PalindromeNumber.cpp)
+ 10 | medium |   C++    | Regular Expression Matching
+ 11 | medium |   C++    | [Container With Most Water](https://github.com/FinixLei/leetcode_finix/blob/master/src/11_medium_ContainerWithMostWater.cpp)
+ 12 | medium |   C++    | Integer to Roman
+ 13 | medium |   C++    | Roman to Integer
+ 14 | medium |   C++    | [Longest Common Prefix](https://github.com/FinixLei/leetcode_finix/blob/master/src/14_easy_LongestCommonPrefix.cpp)
+ 15 | medium |   C++    | [3 Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/15_medium_3Sum.cpp)
+ 16 | medium |   C++    | [3 Sum Closet](https://github.com/FinixLei/leetcode_finix/blob/master/src/16_medium_3Sum_closest.cpp)
+ 17 | medium |   C++    | [Letters Combinations](https://github.com/FinixLei/leetcode_finix/blob/master/src/17_medium_LettersCombinations.cpp)
+ 19 | medium |   C++    | [Remove Nth node from end of list](https://github.com/FinixLei/leetcode_finix/blob/master/src/19_easy_removeNthNodeFromEndOfList.cpp)
+ 20 | medium |   C++    | [Valid Parentheses](https://github.com/FinixLei/leetcode_finix/blob/master/src/20_easy_validParentheses.cpp)
+ 21 | medium |   C++    | [Merge Two Sorted Lists](https://github.com/FinixLei/leetcode_finix/blob/master/src/21_easy_MergeTwoSortedLists.cpp)
+ 226| medium |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
+ 242| medium |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
+ 258| medium |   C++    | [Add Digits](https://github.com/FinixLei/leetcode_finix/blob/master/src/258_easy_AddDigits.cpp)
+ 263| medium |   C++    | [Ugly Number](https://github.com/FinixLei/leetcode_finix/blob/master/src/263_easy_UglyNumber.cpp)
+ 289| medium |   C++    | [Game of Life](https://github.com/FinixLei/leetcode_finix/blob/master/src/289_medium_GameOfLife.cpp)
+ 290| medium |   C++    | [Word Pattern](https://github.com/FinixLei/leetcode_finix/blob/master/src/290_easy_WordPattern.cpp)
+ 292| medium |   C++    | [Nim Game](https://github.com/FinixLei/leetcode_finix/blob/master/src/292_easy_NimGame.cpp)
