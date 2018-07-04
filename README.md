@@ -27,6 +27,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  21 |  easy  |   C++    | [Merge Two Sorted Lists](https://github.com/FinixLei/leetcode_finix/blob/master/src/21_easy_MergeTwoSortedLists.cpp)
  22 | medium |   Python | [Generate Parentheses](https://github.com/FinixLei/leetcode_finix/blob/master/src/22_medium_GenerateParentheses.py)
  23 |  hard  |   C++    | [Merge K Sorted Lists](https://github.com/FinixLei/leetcode_finix/blob/master/src/23_hard_merge_k_sorted_lists.cpp)
+ 24 | medium |   C++    | [Swap Nodes in Pairs](https://github.com/FinixLei/leetcode_finix/blob/master/src/24_medium_swap_nodes_in_pairs.cpp)
  226|  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  242|  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
  258|  easy  |   C++    | [Add Digits](https://github.com/FinixLei/leetcode_finix/blob/master/src/258_easy_AddDigits.cpp)
