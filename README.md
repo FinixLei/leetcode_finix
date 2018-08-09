@@ -33,6 +33,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  27 |  easy  |   C++    | [Remove Elements](https://github.com/FinixLei/leetcode_finix/blob/master/src/27_easy_RemoveElements.cpp)
  28 |  easy  |   C++    | [Implement strStr()](https://github.com/FinixLei/leetcode_finix/blob/master/src/28_easy_implement_strStr().cpp)
  29 | medium |   C++    | [Divide Two Integers](https://github.com/FinixLei/leetcode_finix/blob/master/src/29_medium_DivideTwoIntegers.cpp)
+ 31 | medium |  Python  | [Next Permutation](https://github.com/FinixLei/leetcode_finix/blob/master/src/31_medium_NextPermutation.py)
  226|  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  242|  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
  258|  easy  |   C++    | [Add Digits](https://github.com/FinixLei/leetcode_finix/blob/master/src/258_easy_AddDigits.cpp)
