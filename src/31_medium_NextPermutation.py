@@ -65,11 +65,13 @@ def func(nums):
     nums[i] = t
     
     # Step 3. 把现在的数字n的位置后的数组（即原来的降序数组）按从小到大排序即可
-    part_nums = sorted(nums[index+1:])
+    part_nums = nums[index+1:]
+    part_nums = part_nums[::-1]
     i = index+1
     while i < size:
         nums[i] = part_nums[i-index-1]
         i += 1
     
+    print(nums)
 
 func(mylist)
