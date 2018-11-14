@@ -35,6 +35,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  29 | medium |   C++    | [Divide Two Integers](https://github.com/FinixLei/leetcode_finix/blob/master/src/29_medium_DivideTwoIntegers.cpp)
  31 | medium |  Python  | [Next Permutation](https://github.com/FinixLei/leetcode_finix/blob/master/src/31_medium_NextPermutation.py)
  35 |  easy  |   C++    | [Search Insert Position](https://github.com/FinixLei/leetcode_finix/blob/master/src/35_easy_SearchInsertPosition.cpp)
+ 36 | medium |   C++    | [Valid Soduku](https://github.com/FinixLei/leetcode_finix/blob/master/src/36_medium_ValidSudoku.cpp)
  226|  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  242|  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
  258|  easy  |   C++    | [Add Digits](https://github.com/FinixLei/leetcode_finix/blob/master/src/258_easy_AddDigits.cpp)
