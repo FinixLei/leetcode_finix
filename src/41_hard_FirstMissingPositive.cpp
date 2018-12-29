@@ -38,6 +38,24 @@ int firstMissingPositive(vector<int>& nums) {
     return max+1;
 }
 
+int way2_firstMissingPositive(vector<int>& nums) { 
+    vector<int> array;
+    int max = 0;
+    for (auto i : nums) {
+        if (i>0) {
+            array.push_back(i);
+            if (i > max) max = i;
+        }
+    }
+    sort(array.begin(), array.end());
+    if (array.size() == 0 || array[0] > 1) return 1;
+    
+    for (int i=0; i<=int(array.size())-2; i++) {
+        if (array[i] + 1 < array[i+1]) return array[i]+1;
+    }
+    return max+1;        
+}
+
 
 int main()
 {
@@ -46,6 +64,7 @@ int main()
     
     vector<int> init(array, array+sizeof(array)/sizeof(int));
     cout << firstMissingPositive(init);
+    cout << way2_firstMissingPositive(init);
     
     return 0;
 }
