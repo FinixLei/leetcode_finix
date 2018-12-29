@@ -50,6 +50,7 @@ int way2_firstMissingPositive(vector<int>& nums) {
     sort(array.begin(), array.end());
     if (array.size() == 0 || array[0] > 1) return 1;
     
+    // Note, some C++11 compilier need to use int(array.size())-2 as below, cannot use array.size()-2 directly. 
     for (int i=0; i<=int(array.size())-2; i++) {
         if (array[i] + 1 < array[i+1]) return array[i]+1;
     }
