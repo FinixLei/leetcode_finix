@@ -38,6 +38,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  36 | medium |   C++    | [Valid Soduku](https://github.com/FinixLei/leetcode_finix/blob/master/src/36_medium_ValidSudoku.cpp)
  39 | medium |   C++    | [Combination Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/39_medium_CombinationSum.cpp)
  40 | medium |   C++    | [Combination Sum II](https://github.com/FinixLei/leetcode_finix/blob/master/src/40_medium_CombinationSumII.cpp)
+ 41 |  hard  |   C++    | [First Missing Positive](https://github.com/FinixLei/leetcode_finix/blob/master/src/41_hard_FirstMissingPositive.cpp)
  226|  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  242|  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
  258|  easy  |   C++    | [Add Digits](https://github.com/FinixLei/leetcode_finix/blob/master/src/258_easy_AddDigits.cpp)
