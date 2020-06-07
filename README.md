@@ -42,6 +42,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  42 |  hard  |   C++    | [Trap Rain Water](https://github.com/FinixLei/leetcode_finix/blob/master/src/42_hard_TrapRainWater.cpp)
  43 | medium |   C++    | [Multiply Strings](https://github.com/FinixLei/leetcode_finix/blob/master/src/43_medium_MultiplyStrings.cpp)
  44 |  hard  |   C++    | [Wildcard Matching](https://github.com/FinixLei/leetcode_finix/blob/master/src/44_hard_wildcard_matching.cpp)
+ 45 |  hard  |   C++    | [Jump Game II](https://github.com/FinixLei/leetcode_finix/blob/master/src/45_hard_JumpGameII.cpp)
  226|  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  238| medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
  242|  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
