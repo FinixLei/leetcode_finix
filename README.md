@@ -48,6 +48,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  48 | medium |   C++    | [Rotate Image](https://github.com/FinixLei/leetcode_finix/blob/master/src/48_medium_RotateImage.cpp)
  49 | medium |   C++    | [Group Anagrams](https://github.com/FinixLei/leetcode_finix/blob/master/src/49_medium_GroupAnagrams.cpp)
  50 | medium |   C++    | [Power(x,n)](https://github.com/FinixLei/leetcode_finix/blob/master/src/50_medium_Power.cpp)
+ 51 |  hard  |   C++    | [N-Queens](https://github.com/FinixLei/leetcode_finix/blob/master/src/51_hard_N-Queens.cpp)
  226|  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  238| medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
  242|  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
