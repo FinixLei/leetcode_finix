@@ -22,6 +22,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  15 | medium |   C++    | [3 Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/15_medium_3Sum.cpp)
  16 | medium |   C++    | [3 Sum Closet](https://github.com/FinixLei/leetcode_finix/blob/master/src/16_medium_3Sum_closest.cpp)
  17 | medium |   C++    | [Letters Combinations](https://github.com/FinixLei/leetcode_finix/blob/master/src/17_medium_LettersCombinations.cpp)
+ 18 | medium |   C++    | [4 Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/18_medium_4Sum.cpp)
  19 |  easy  |   C++    | [Remove Nth node from end of list](https://github.com/FinixLei/leetcode_finix/blob/master/src/19_easy_removeNthNodeFromEndOfList.cpp)
  20 |  easy  |   C++    | [Valid Parentheses](https://github.com/FinixLei/leetcode_finix/blob/master/src/20_easy_validParentheses.cpp)
  21 |  easy  |   C++    | [Merge Two Sorted Lists](https://github.com/FinixLei/leetcode_finix/blob/master/src/21_easy_MergeTwoSortedLists.cpp)
