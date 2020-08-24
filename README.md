@@ -34,6 +34,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  27 |  easy  |   C++    | [Remove Elements](https://github.com/FinixLei/leetcode_finix/blob/master/src/27_easy_RemoveElements.cpp)
  28 |  easy  |   C++    | [Implement strStr()](https://github.com/FinixLei/leetcode_finix/blob/master/src/28_easy_implement_strStr().cpp)
  29 | medium |   C++    | [Divide Two Integers](https://github.com/FinixLei/leetcode_finix/blob/master/src/29_medium_DivideTwoIntegers.cpp)
+ 30 |  hard  |   C++    | [Substring with Concatenation of All Words](https://github.com/FinixLei/leetcode_finix/blob/master/src/30_hard_SubstringWithConcatenationOfAllWords.cpp)
  31 | medium |  Python  | [Next Permutation](https://github.com/FinixLei/leetcode_finix/blob/master/src/31_medium_NextPermutation.py)
  32 |  hard  |   C++    | [Longest Valid Parentheses](https://github.com/FinixLei/leetcode_finix/blob/master/src/32_hard_LongestValidParentheses.cpp)
  35 |  easy  |   C++    | [Search Insert Position](https://github.com/FinixLei/leetcode_finix/blob/master/src/35_easy_SearchInsertPosition.cpp)
