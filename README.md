@@ -38,7 +38,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  31 | medium |  Python  | [Next Permutation](https://github.com/FinixLei/leetcode_finix/blob/master/src/31_medium_NextPermutation.py)
  32 |  hard  |   C++    | [Longest Valid Parentheses](https://github.com/FinixLei/leetcode_finix/blob/master/src/32_hard_LongestValidParentheses.cpp)
  33 | medium |   C++    | [Search in Rotated Sorted Array](https://github.com/FinixLei/leetcode_finix/blob/master/src/33_medium_SearchInRotatedSortedArray.cpp)
- 33 | medium |   C++    | [Find First and Last in Sorted List](https://github.com/FinixLei/leetcode_finix/blob/master/src/34_medium_FindFirstLast.cpp)
+ 34 | medium |   C++    | [Find First and Last in Sorted List](https://github.com/FinixLei/leetcode_finix/blob/master/src/34_medium_FindFirstLast.cpp)
  35 |  easy  |   C++    | [Search Insert Position](https://github.com/FinixLei/leetcode_finix/blob/master/src/35_easy_SearchInsertPosition.cpp)
  36 | medium |   C++    | [Valid Soduku](https://github.com/FinixLei/leetcode_finix/blob/master/src/36_medium_ValidSudoku.cpp)
  39 | medium |   C++    | [Combination Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/39_medium_CombinationSum.cpp)
