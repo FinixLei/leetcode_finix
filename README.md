@@ -41,6 +41,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  34 | medium |   C++    | [Find First and Last in Sorted List](https://github.com/FinixLei/leetcode_finix/blob/master/src/34_medium_FindFirstLast.cpp)
  35 |  easy  |   C++    | [Search Insert Position](https://github.com/FinixLei/leetcode_finix/blob/master/src/35_easy_SearchInsertPosition.cpp)
  36 | medium |   C++    | [Valid Soduku](https://github.com/FinixLei/leetcode_finix/blob/master/src/36_medium_ValidSudoku.cpp)
+ 38 |  easy  |   C++    | [Count And Say](https://github.com/FinixLei/leetcode_finix/blob/master/src/38_easy_CountAndSay.cpp)
  39 | medium |   C++    | [Combination Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/39_medium_CombinationSum.cpp)
  40 | medium |   C++    | [Combination Sum II](https://github.com/FinixLei/leetcode_finix/blob/master/src/40_medium_CombinationSumII.cpp)
  41 |  hard  |   C++    | [First Missing Positive](https://github.com/FinixLei/leetcode_finix/blob/master/src/41_hard_FirstMissingPositive.cpp)
