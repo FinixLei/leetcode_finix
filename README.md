@@ -60,6 +60,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  53 |  easy  |   C++    | [Maximum Subarray](https://github.com/FinixLei/leetcode_finix/blob/master/src/53_easy_MaximumSubarray.cpp)
  54 | medium |   C++    | [Spiral Matrix](https://github.com/FinixLei/leetcode_finix/blob/master/src/54_medium_SpiralMatrix.cpp)
  55 | medium |   C++    | [Jump Game](https://github.com/FinixLei/leetcode_finix/blob/master/src/55_medium_JumpGame.cpp)
+ 56 | medium |  Python  | [Merge Intervals](https://github.com/FinixLei/leetcode_finix/blob/master/src/56_medium_MergeIntervals.py)
  226|  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  238| medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
  242|  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
