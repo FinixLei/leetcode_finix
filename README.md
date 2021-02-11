@@ -69,6 +69,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  62  | medium |   C++    | [Unique Paths](https://github.com/FinixLei/leetcode_finix/blob/master/src/62_medium_UniquePaths.cpp)
  63  | medium |   C++    | [Unique Paths II](https://github.com/FinixLei/leetcode_finix/blob/master/src/63_medium_UniquePathsII.cpp)
  64  | medium |   C++    | [Mininum Path Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/64_medium_MinimumPathSum.cpp)
+ 65  |  hard  |   C++    | [Valid Number](https://github.com/FinixLei/leetcode_finix/blob/master/src/65_hard_ValidNumber.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  238 | medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
  242 |  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
