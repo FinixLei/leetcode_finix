@@ -73,6 +73,8 @@ This repository is only to collect the problems solved by myself in LeetCode.
  66  |  easy  |   C++    | [Plus One](https://github.com/FinixLei/leetcode_finix/blob/master/src/66_easy_PlusOne.cpp)
  67  |  easy  |   C++    | [Add Binary](https://github.com/FinixLei/leetcode_finix/blob/master/src/67_easy_AddBinary.cpp)
  68  |  hard  |   C++    | [Text Justification](https://github.com/FinixLei/leetcode_finix/blob/master/src/68_hard_TextJustification.cpp)
+ 69  |  easy  |   C++    | [Sqrt(x)](https://github.com/FinixLei/leetcode_finix/blob/master/src/69_easy_Sqrt.cpp)
+ 70  |  easy  |   C++    | [Climb Stairs](https://github.com/FinixLei/leetcode_finix/blob/master/src/70_easy_ClimbStairs.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  238 | medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
  242 |  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
