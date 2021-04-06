@@ -78,6 +78,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  71  | medium |   C++    | [Simplify Path](https://github.com/FinixLei/leetcode_finix/blob/master/src/71_medium_SimplifyPath.cpp)
  73  | medium |   C++    | [Set Matrix Zeros](https://github.com/FinixLei/leetcode_finix/blob/master/src/73_medium_SetMatrixZeros.cpp)
  74  | medium |   C++    | [Search a 2D Matrix](https://github.com/FinixLei/leetcode_finix/blob/master/src/74_medium_Search2DMatrix.cpp)
+ 75  | medium |   C++    | [Sort Colors](https://github.com/FinixLei/leetcode_finix/blob/master/src/75_medium_SortColors.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  238 | medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
  242 |  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
