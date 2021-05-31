@@ -82,6 +82,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  76  |  hard  |   C++    | [Minimum Window Substring](https://github.com/FinixLei/leetcode_finix/blob/master/src/76_hard_MinumumWindowSubstring.cpp)
  77  | medium |   C++    | [Combinations](https://github.com/FinixLei/leetcode_finix/blob/master/src/77_medium_Combinations.cpp)
  78  | medium |   C++    | [Subsets](https://github.com/FinixLei/leetcode_finix/blob/master/src/78_medium_Subsets.cpp)
+ 79  | medium |   C++    | [Word Search](https://github.com/FinixLei/leetcode_finix/blob/master/src/79_medium_WordSearch.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  238 | medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
  242 |  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
