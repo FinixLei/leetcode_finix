@@ -76,6 +76,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  69  |  easy  |   C++    | [Sqrt(x)](https://github.com/FinixLei/leetcode_finix/blob/master/src/69_easy_Sqrt.cpp)
  70  |  easy  |   C++    | [Climb Stairs](https://github.com/FinixLei/leetcode_finix/blob/master/src/70_easy_ClimbStairs.cpp)
  71  | medium |   C++    | [Simplify Path](https://github.com/FinixLei/leetcode_finix/blob/master/src/71_medium_SimplifyPath.cpp)
+ 72  |  hard  |   C++    | [Edit Distance](https://github.com/FinixLei/leetcode_finix/blob/master/src/72_hard_EditDistance.cpp)
  73  | medium |   C++    | [Set Matrix Zeros](https://github.com/FinixLei/leetcode_finix/blob/master/src/73_medium_SetMatrixZeros.cpp)
  74  | medium |   C++    | [Search a 2D Matrix](https://github.com/FinixLei/leetcode_finix/blob/master/src/74_medium_Search2DMatrix.cpp)
  75  | medium |   C++    | [Sort Colors](https://github.com/FinixLei/leetcode_finix/blob/master/src/75_medium_SortColors.cpp)
