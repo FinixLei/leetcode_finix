@@ -13,6 +13,8 @@
 
 #include <iostream>
 #include <vector>
+#include <stack>
+#include <climits>
 using namespace std;
 
 
@@ -63,6 +65,8 @@ int largestRectangleArea_1(vector<int>& heights)
 // 单调栈解法，大约 100+ ms on LeetCode
 int largestRectangleArea_2(vector<int>& heights) 
 {
+    heights.push_back(INT_MIN);
+    
     int result = 0;
     stack<int> st;
     
