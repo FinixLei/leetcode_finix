@@ -10,40 +10,26 @@
 using namespace std;
 
 string longestCommonPrefix(vector<string>& strs) {
-    int size = strs.size();
-    string longest;
+    if (strs.size() == 0) return "";
+    if (strs.size() == 1) return strs[0];
     
-    if (size == 0) {
-        longest = "";
-    }
-    else if (size == 1) {
-        longest = strs[0]; 
-    }
-    else if (size >= 2) {
-        longest = strs[0];
-        char buffer[longest.length()+1];
-        strcpy(buffer, longest.c_str());
-        
-        int len, pos;
-        int move = 1; 
-        while (move < size) {
-            len = min(longest.length(), strs[move].length());            
-            pos = 0;
-            while (pos < len) {
-                if (longest[pos] == strs[move][pos]) {
-                    ++pos;
-                } 
-                else {
-                    break;
-                }
+    string result; 
+    int pos = 0;
+    bool fail = false;
+    for (; pos < strs[0].size(); pos++) {
+        char ch = strs[0][pos];
+        for (int j=1; j<strs.size(); j++) {
+            if (ch != strs[j][pos]) {
+                fail = true;
+                break;
             }
-            
-            buffer[pos] = '\0';
-            longest = string(buffer);
-            ++ move;
         }
+        
+        if (fail) break;
+        result.push_back(strs[0][pos]);
     }
-    return longest;
+    
+    return result;
 }
 
 int main() {
