@@ -12,122 +12,51 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
     int size2 = nums2.size();
     int size = size1 + size2;
     
-    vector<int> pos_array; 
-    bool isOdd = (size % 2 == 1) ? true : false;
-    int pos = 0;
-    double rv = -1;
+    bool bEven = (size % 2 == 0);
+    int target_num = bEven ? (size/2-1) : (size-1)/2; 
+    target_num ++;
     
-    if (isOdd) {
-        for (int i=0, j=0; i<size1 || j<size2; ) {
-            if (i >= size1) {
-                if (pos == (size-1)/2) {
-                    rv = nums2[j];
-                    break;
-                }
-                
-                j++;
-                pos++;
-                continue;
-            }
-            if (j >= size2) {
-                if (pos == (size-1)/2) {
-                    rv = nums1[i];
-                    break;
-                }
-                
-                i++;
-                pos++;
-                continue;
-            }
-            
-            if (nums1[i] <= nums2[j]) {
-                if (pos == (size-1)/2) {
-                    rv = nums1[i];
-                    break;
-                }
-                
-                i++;
-                pos++;
-            }
-            else {
-                if (pos == (size-1)/2) {
-                    rv = nums2[j];
-                    break;
-                }
-                
-                j++;
-                pos++;
-            }
+    int count = 0;
+    int currNum = 0;
+    int n1 = -1;
+    int n2 = -1;
+    
+    for (int i=0, j=0; i<size1 || j<size2; ) {
+        if (i >= size1) {
+            currNum = nums2[j++]; 
         }
-    }
-    else {  // not isOdd
-        int first_num = -1;
-        int second_num = -1;
+        else if (j >= size2) {
+            currNum = nums1[i++];
+        }
+        else if (nums1[i] <= nums2[j]) {
+            currNum = nums1[i++];
+        }
+        else {
+            currNum = nums2[j++];
+        }
         
-        for (int i=0, j=0; i<size1 || j<size2; ) {
-            if (i >= size1) {
-                if (pos == size/2 - 1) first_num = nums2[j];
-                if (pos == size/2) {
-                    second_num = nums2[j];
-                    break;
-                }
-                
-                j++;
-                pos++;
-                continue;
+        count ++;
+        
+        if (!bEven) {
+            if (count == target_num) return currNum;
+        }
+        else {
+            if (count == target_num) {
+                n1 = currNum;
             }
-            if (j >= size2) {
-                if (pos == size/2 - 1) first_num = nums1[i];
-                if (pos == size/2) {
-                    second_num = nums1[i];
-                    break;
-                }
-                
-                i++;
-                pos++;
-                continue;
-            }
-            
-            if (nums1[i] <= nums2[j]) {
-                if (pos == size/2 - 1) first_num = nums1[i];
-                if (pos == size/2) {
-                    second_num = nums1[i];
-                    break;
-                }
-                
-                i++;
-                pos++;
-            }
-            else {
-                if (pos == size/2 - 1) first_num = nums2[j];
-                if (pos == size/2) {
-                    second_num = nums2[j];
-                    break;
-                }
-                
-                j++;
-                pos++;
+            else if (count == target_num + 1) {
+                n2 = currNum;
+                break;
             }
         }
-        rv = (first_num + second_num) / 2.0;
     }
-    
-    return rv;
+    return (n1+n2)*1.0/2;
 }
-
 
 int main()
 {
-    vector<int> array1;
-    vector<int> array2;
-    
-    array1.push_back(10); 
-    array1.push_back(20); 
-    array1.push_back(30); 
-    
-    array2.push_back(5); 
-    array2.push_back(15); 
-    array2.push_back(25); 
+    vector<int> array1{10, 20, 30};
+    vector<int> array2{5, 15, 25}
     
     double result = findMedianSortedArrays(array1, array2);
     cout << "result = " << result << endl;
