@@ -14,25 +14,24 @@ There is a more generic way of solving this problem.
 
 #include <vector>
 #include <iostream>
+#include <climits>
 using namespace std;
 
 bool isPalindrome(int x) {
     if (x < 0) return false;
+    if (x < 10) return true;
     
-    int y = x;
-    vector<int> array;
-    
-    while (y >= 10) {
-        int v = y % 10;
-        array.push_back(v);
-        y = (y - v) / 10;
-    }
-    array.push_back(y);
-    
-    int z = 0;
-    for (auto it=array.begin(); it!=array.end(); it++) {
-        z = z * 10 + *it;
+    vector<int> vec;
+    int t = x;
+    while (t > 0) {
+        vec.push_back(t%10);
+        t /= 10;
     }
     
-    return x == z; 
+    unsigned long num = 0;
+    for (auto i : vec) {
+        num = num * 10 + i;
+        if (num > INT_MAX) return false;
+    }
+    return num == x; 
 }
