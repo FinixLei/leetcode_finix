@@ -45,9 +45,7 @@
 #include <iostream>
 #include <string>
 #include <cstring>
-#include <unordered_map>
 using namespace std;
-
 
 
 string intToRoman(int num) 
@@ -61,160 +59,147 @@ string intToRoman(int num)
     int u = num % 10; 
     
     int pos = 0;
-    
-    switch (t) {
-    case 1000:
-        strcpy(buf, "M");
-        pos += 1;
-        break;
-        
-    case 2000:
-        strcpy(buf, "MM");
-        pos += 2;
-        break;
-        
-    case 3000:
-        strcpy(buf, "MMM");
-        pos += 3;
+    for (int i=0; i<t/1000; i++) {
+        buf[pos++] = 'M';
     }
-
+    
     switch (h) {
     case 100:
-        strcpy(buf+pos, "C");
+        strncpy(buf+pos, "C", 1);
         pos += 1;
         break;
         
     case 200:
-        strcpy(buf+pos, "CC");
+        strncpy(buf+pos, "CC", 2);
         pos += 2;
         break;
         
     case 300:
-        strcpy(buf+pos, "CCC");
+        strncpy(buf+pos, "CCC", 3);
         pos += 3;
         break;
         
     case 400: 
-        strcpy(buf+pos, "CD");
+        strncpy(buf+pos, "CD", 2);
         pos += 2;
         break;
         
     case 500: 
-        strcpy(buf+pos, "D");
+        strncpy(buf+pos, "D", 1);
         pos += 1;
         break;
         
     case 600: 
-        strcpy(buf+pos, "DC");
+        strncpy(buf+pos, "DC", 2);
         pos += 2;
         break;
         
     case 700: 
-        strcpy(buf+pos, "DCC");
+        strncpy(buf+pos, "DCC", 3);
         pos += 3;
         break;
         
     case 800: 
-        strcpy(buf+pos, "DCCC");
+        strncpy(buf+pos, "DCCC", 4);
         pos += 4;
         break;
         
     case 900: 
-        strcpy(buf+pos, "CM");
+        strncpy(buf+pos, "CM", 2);
         pos += 2;
         break;
     }
     
     switch (x) {
     case 10:
-        strcpy(buf+pos, "X");
+        strncpy(buf+pos, "X", 1);
         pos += 1;
         break;
         
     case 20:
-        strcpy(buf+pos, "XX");
+        strncpy(buf+pos, "XX", 2);
         pos += 2;
         break;
         
     case 30:
-        strcpy(buf+pos, "XXX");
+        strncpy(buf+pos, "XXX", 3);
         pos += 3;
         break;
         
     case 40: 
-        strcpy(buf+pos, "XL");
+        strncpy(buf+pos, "XL", 2);
         pos += 2;
         break;
         
     case 50: 
-        strcpy(buf+pos, "L");
+        strncpy(buf+pos, "L", 1);
         pos += 1;
         break;
         
     case 60: 
-        strcpy(buf+pos, "LX");
+        strncpy(buf+pos, "LX", 2);
         pos += 2;
         break;
         
     case 70: 
-        strcpy(buf+pos, "LXX");
+        strncpy(buf+pos, "LXX", 3);
         pos += 3;
         break;
         
     case 80: 
-        strcpy(buf+pos, "LXXX");
+        strncpy(buf+pos, "LXXX", 4);
         pos += 4;
         break;
         
     case 90: 
-        strcpy(buf+pos, "XC");
+        strncpy(buf+pos, "XC", 2);
         pos += 2;
         break;
     }
     
     switch (u) {
     case 1:
-        strcpy(buf+pos, "I");
+        strncpy(buf+pos, "I", 1);
         pos += 1;
         break;
         
     case 2:
-        strcpy(buf+pos, "II");
+        strncpy(buf+pos, "II", 2);
         pos += 2;
         break;
         
     case 3:
-        strcpy(buf+pos, "III");
+        strncpy(buf+pos, "III", 3);
         pos += 3;
         break;
         
     case 4: 
-        strcpy(buf+pos, "IV");
+        strncpy(buf+pos, "IV", 2);
         pos += 2;
         break;
         
     case 5: 
-        strcpy(buf+pos, "V");
+        strncpy(buf+pos, "V", 1);
         pos += 1;
         break;
         
     case 6: 
-        strcpy(buf+pos, "VI");
+        strncpy(buf+pos, "VI", 2);
         pos += 2;
         break;
         
     case 7: 
-        strcpy(buf+pos, "VII");
+        strncpy(buf+pos, "VII", 3);
         pos += 3;
         break;
         
     case 8: 
-        strcpy(buf+pos, "VIII");
+        strncpy(buf+pos, "VIII", 4);
         pos += 4;
         break;
         
     case 9: 
-        strcpy(buf+pos, "IX");
+        strncpy(buf+pos, "IX", 2);
         pos += 2;
         break;
     }
