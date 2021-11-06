@@ -8,7 +8,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  1   | medium |   C++    | Two Sum [way-1](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.cpp), [way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way2.cpp), [way-3](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way3.cpp), [way-4](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way4.cpp)
  2   | medium |   C++    | [Add Two Numbers](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.cpp)
  3   | medium |   C++    | [Longest Substring Without Repeated Characters](https://github.com/FinixLei/leetcode_finix/blob/master/src/3_medium_LongestSubstringWithoutRepeatingCharacters.cpp)
- 4   |  hard  |   C++    | [Median of Two Sorted Arrays](https://github.com/FinixLei/leetcode_finix/blob/master/src/4_hard_MedianOfTwoSortedArrays.cpp)
+ 4   |  hard  |   C++    | Median of Two Sorted Arrays [way-1](https://github.com/FinixLei/leetcode_finix/blob/master/src/4_hard_MedianOfTwoSortedArrays.cpp), [way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/4_hard_MedianOfTwoSortedArrays_way2.cpp)
  5   | medium |   C++    | [Longest Palindromic Substring](https://github.com/FinixLei/leetcode_finix/blob/master/src/5_medium_LongestPalindromicSubstring.cpp)
  6   |  easy  |   C++    | [ZigZag Conversion](https://github.com/FinixLei/leetcode_finix/blob/master/src/6_easy_ZigZagConversion.cpp)
  7   |  easy  |   C++    | [Reverse Integer](https://github.com/FinixLei/leetcode_finix/blob/master/src/7_easy_ReverseInteger.cpp)

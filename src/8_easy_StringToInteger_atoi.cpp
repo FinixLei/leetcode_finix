@@ -21,57 +21,44 @@ If the correct value is out of the range of representable values, INT_MAX (21474
 
 #include <string>
 #include <iostream>
+#include <climits>
 using namespace std;
 
+int convertToInt(string& str, int pos, bool bPos) {
+    long num = 0;
+    while (pos < str.size()) {
+        int n = str[pos]-'0';
+        if (n < 0 || n > 9) break;
+        
+        num = num * 10 + n;
+        if (num > INT_MAX) break;
+        pos ++;
+    }
+    num = bPos ? num : -num;
+    
+    return num > INT_MAX ? INT_MAX : (num <= INT_MIN ? INT_MIN : num);
+}
+
 int myAtoi(string str) {
-    // Step 1: remove whitespaces
-    int i;
-    for (i = 0; i < str.size(); ) {
-        if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == '\r') {
-            i++;
-        }
-        else {
-            break;
-        }
+    int size = str.size();
+    int i=0;
+    while (i < size) {
+        if (str[i] == ' ') i++;
+        else break;
     }
-    str = string(&str[i]); 
-    if (str.size() == 0) return 0;
-
-    // Step 2: record sign
-    bool isPositive = true;
-    if (str[0] == '+') {
-        str = string(&str[1]);
-    } 
-    else if (str[0] == '-') {
-        isPositive = false;
-        str = string(&str[1]);
+    if (i == size) return 0;
+    
+    bool bPos = true;
+    if (str[i] == '+') {
+        i++;
+    }
+    else if (str[i] == '-') {
+        bPos = false;
+        i++;
     }
     
-    // Step 3: collect numbers
-    string pure_num = "";
-    i = 0;
-    while (i < str.size() && str[i] >= '0' && str[i] <= '9') {
-        pure_num += str[i++];
-    }
-    if (pure_num == "") return 0;
-    
-    // Step 4: validate range and transformation
-    int MAX = 2147483647;
-    int MIN = -2147483648;
-
-    if (pure_num.size() > 10) {
-        return isPositive ? MAX: MIN;
-    }
-
-    long result = 0; 
-    for (i = 0; i < pure_num.size(); i++) {
-        result *= 10;
-        if (result < 0 || result > MAX) return isPositive ? MAX : MIN;  // overflow
-        result += pure_num[i] - '0';
-        if (result < 0 || result > MAX) return isPositive ? MAX : MIN;  // overflow
-    }
-
-    return isPositive ? (int)result : (int)-result;
+    int result = convertToInt(str, i, bPos);
+    return result;
 }
 
 int main() {
@@ -86,6 +73,6 @@ int main() {
     cout << myAtoi("1234567891") << endl;
     cout << myAtoi("12345678999") << endl;
     cout << myAtoi("2147483648") << endl;
-        
+     
     return 0;
 }

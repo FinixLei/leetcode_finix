@@ -14,37 +14,25 @@ For the purpose of this problem, assume that your function returns 0 when the re
 
 #include <vector>
 #include <iostream>
+#include <climits>
 using namespace std;
 
 int reverse(int x) {
-    int max_32bit_signed_int = 2147483647;
+    if (x == 0 || x == INT_MIN) return 0;
     
-    bool bMinus = false;
-    if (x < 0) {
-        bMinus = true;
-        x = -x; 
-        if (x < 0) return 0;  // overflow
+    bool bPos = ( x > 0 ); 
+    if (!bPos ) x=-x;
+    
+    unsigned long result = 0;
+    
+    while (x>0) {
+        result = result *10 + x%10;
+        x /= 10; 
     }
     
-    vector<int> array;
-    while (x >= 10) {
-        int value = x % 10;
-        array.push_back(value); 
-        x = (x - value) / 10;
-    }
-    array.push_back(x);
+    if (result > INT_MAX) return 0;
     
-    int size = array.size();
-    long result = 0;
-    for (int i=0; i<size; i++) {
-        result *= 10;
-        if (result > max_32bit_signed_int) return 0;
-        result += array[i];
-        if (result > max_32bit_signed_int) return 0;
-    }
-    
-    int int_result = (int)result;
-    return bMinus ? -int_result : int_result;
+    return bPos ? result : (-result);
 }
 
 int main() {
