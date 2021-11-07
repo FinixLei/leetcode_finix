@@ -27,33 +27,30 @@ int minPathSum(vector<vector<int>>& grid)
     
     if (m == 1 && n == 1) return grid[0][0];
     
-    vector<vector<int>> result;
-    result.reserve(m);
+    vector<vector<int>> array;
+    array.reserve(m);
     for (int i=0; i<m; i++) {
         vector<int> vecRow;
         vecRow.reserve(n);
         for (int j=0; j<n; j++) {
             vecRow.push_back(-1);
         }
-        result.push_back(vecRow);
+        array.push_back(vecRow);
     }
     
-    result[m-1][n-1] = grid[m-1][n-1];
-    
-    for (int col=n-2; col>=0; col--) {
-        result[m-1][col] = grid[m-1][col] + result[m-1][col+1];
+    array[0][0] = grid[0][0];
+    for (int i=1; i<n; i++) {
+        array[0][i] = array[0][i-1] + grid[0][i]; 
     }
-    for (int row=m-2; row>=0; row--) {
-        result[row][n-1] = grid[row][n-1] + result[row+1][n-1];
+    for (int i=1; i<m; i++) {
+        array[i][0] = array[i-1][0] + grid[i][0];
     }
-   
-    for (int i = m-2; i >= 0; i--) {
-        for (int j = n-2; j >= 0; j--) {
-            result[i][j] = grid[i][j] + min(result[i][j+1], result[i+1][j]);
+    for (int i=1; i<m; i++) {
+        for (int j=1; j<n; j++) {
+            array[i][j] = min(array[i-1][j], array[i][j-1]) + grid[i][j];
         }
     }
-    
-    return result[0][0];
+    return array[m-1][n-1]; 
 }
 
 int main()
