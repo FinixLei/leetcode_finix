@@ -45,6 +45,24 @@ vector<int> productExceptSelf(vector<int>& nums)
     return pre;
 }
 
+vector<int> productExceptSelf_way2(vector<int>& nums) {
+    vector<int> result(nums.size());
+    long all = 1;
+    for (auto i : nums) {
+        all *= i;
+    }
+    for (int i=0; i<nums.size(); i++) {
+        if (nums[i] != 0) result[i] = all / nums[i];
+        else {
+            result[i] = 1;
+            for (int j=0; j<nums.size(); j++) {
+                if (j!=i) result[i] *= nums[j];
+            }
+        }
+    }
+    return result;
+}
+
 int main()
 {
     vector<int> nums{1, 2, 3, 4};
