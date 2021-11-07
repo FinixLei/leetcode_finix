@@ -47,13 +47,33 @@ public:
         if (nums.size() == 0) return 0;
         
         int pos = 0;
-        
         for (int i=0; i<nums.size(); ++i) {
             if (nums[i] != val) {
                 nums[pos++] = nums[i];
             }
         }
+        return pos;
+    }
+    
+    // Way-2: remove unnecessary assignment in way-1, but needs to sort
+    int removeElement_way2(vector<int>& nums, int val) {
+        if (nums.size() == 0) return 0;
         
+        sort(nums.begin(), nums.end());
+        
+        int pos = 0;
+        for(int i=0; i<nums.size(); i++) {
+            if (nums[i] == val) {
+                pos = i;
+                break;
+            }
+        }
+        for (int i=pos; i<nums.size(); i++) {
+            if (nums[i] != val) {
+                nums[pos] = nums[i];
+                pos ++;
+            }
+        }
         return pos;
     }
 };
