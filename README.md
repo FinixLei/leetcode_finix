@@ -39,7 +39,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  32  |  hard  |   C++    | [Longest Valid Parentheses](https://github.com/FinixLei/leetcode_finix/blob/master/src/32_hard_LongestValidParentheses.cpp)
  33  | medium |   C++    | [Search in Rotated Sorted Array](https://github.com/FinixLei/leetcode_finix/blob/master/src/33_medium_SearchInRotatedSortedArray.cpp)
  34  | medium |   C++    | [Find First and Last in Sorted List](https://github.com/FinixLei/leetcode_finix/blob/master/src/34_medium_FindFirstLast.cpp)
- 35  |  easy  |   C++    | [Search Insert Position](https://github.com/FinixLei/leetcode_finix/blob/master/src/35_easy_SearchInsertPosition.cpp)
+ 35  |  easy  |   C++    | Search Insert Position [way-1](https://github.com/FinixLei/leetcode_finix/blob/master/src/35_easy_SearchInsertPosition.cpp), [way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/35_easy_SearchInsertPosition_way2.cpp)
  36  | medium |   C++    | [Valid Soduku](https://github.com/FinixLei/leetcode_finix/blob/master/src/36_medium_ValidSudoku.cpp)
  37  |  hard  |   C++    | [Soduku Solver](https://github.com/FinixLei/leetcode_finix/blob/master/src/37_hard_SudokuSolver.cpp)
  38  |  easy  |   C++    | [Count And Say](https://github.com/FinixLei/leetcode_finix/blob/master/src/38_easy_CountAndSay.cpp)
