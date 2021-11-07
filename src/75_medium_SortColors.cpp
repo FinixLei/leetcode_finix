@@ -6,9 +6,7 @@ using namespace std;
 
 void print_vec(vector<int>& vec)
 {
-    for (auto& v : vec) {
-        cout << v << " ";
-    }
+    for (auto& v : vec) cout << v << " ";
     cout << endl;
 }
 
@@ -16,27 +14,15 @@ void print_vec(vector<int>& vec)
 void sortColors(vector<int>& nums) 
 {
     unordered_map<int, int> mymap;
-    for (int v : nums) {
-        if (mymap.find(v) == mymap.end()) {
-            mymap.insert(std::make_pair(v, 1));
-        }
-        else {
-            mymap[v] += 1;
-        }
-    }
-    
+    for (auto v : nums) mymap[v] ++;
+
     vector<int> tmp;
     tmp.reserve(nums.size());
-    
+
     for (int i=0; i<3; ++i) {
-        if (mymap.find(i) == mymap.end()) continue; 
-        
         int count = mymap[i];
-        for (int j=0; j<count; j++) {
-            tmp.push_back(i);
-        }
+        for (int j=0; j<count; j++) tmp.push_back(i);
     }
-    
     nums = tmp; 
 }
 
