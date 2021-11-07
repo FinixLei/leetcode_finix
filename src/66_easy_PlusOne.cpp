@@ -32,9 +32,7 @@ vector<int> plusOne(vector<int>& digits)
 {
     int dsize = digits.size();
     
-    vector<int> result(dsize);
-    result.reserve(dsize + 1);
-    copy(digits.begin(), digits.end(), result.begin());
+    vector<int> result(digits);
     
     for (int i=dsize-1; i>=0; i--) {
         int tmp = digits[i] + 1;
@@ -49,7 +47,6 @@ vector<int> plusOne(vector<int>& digits)
     
     if (result[0] == 0) { // last add result is 10
         result.push_back(0);
-        // copy(result.begin(), result.end(), result.begin()+1);
         for (int i=dsize; i>=1; i--) {
             result[i] = result[i-1];
         }
