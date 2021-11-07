@@ -21,20 +21,18 @@ For the purpose of this problem, we will return 0 when needle is an empty string
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        if (needle == "") return 0;
-        if (haystack.size() < needle.size()) return -1;
+        int s1 = haystack.size();
+        int s2 = needle.size();
+        if (s2 == 0) return 0;
+        if (s1 == 0 || s1 < s2) return -1;
         
-        int size = needle.size();
-        int last_pos = haystack.size() - needle.size(); 
-        
-        for (int i=0; i<=last_pos; ++i) {
+        for (int i=0; i<=s1-s2; i++) {
             int j = 0;
-            for (j=0; j<size; ++j) {
+            for (; j<s2; j++) {
                 if (haystack[i+j] != needle[j]) break;
             }
-            if (j==size) return i;
+            if (j == s2) return i;
         }
-        
         return -1;
     }
 };
