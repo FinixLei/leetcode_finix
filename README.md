@@ -99,4 +99,5 @@ This repository is only to collect the problems solved by myself in LeetCode.
  292 |  easy  |   C++    | [Nim Game](https://github.com/FinixLei/leetcode_finix/blob/master/src/292_easy_NimGame.cpp)
  322 | medium |   C++    | [Coin Change](https://github.com/FinixLei/leetcode_finix/blob/master/src/322_medium_CoinChange.cpp)
  543 |  easy  |   C++    | [Diameter Of Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/543_easy_DiameterOfBinaryTree.cpp)
- 1373|  easy  |   C++    | [Maximum Sum BST in Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/1373_hard_MaxSumBSTinBinaryTreeç³Vu"+¦
+ 1373|  hard  |   C++    | [Maximum Sum BST in Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/1373_hard_MaxSumBSTinBinaryTree.cpp)
+ 
