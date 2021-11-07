@@ -31,7 +31,7 @@ void print_2Dvec(vector<vector<int>>& vec2d)
     cout << endl;
 }
 
-void list_all(vector<int>& line, vector<vector<int>>& all_results, vector<int>& one_result, int start, int k) 
+void list_all(const vector<int>& line, vector<vector<int>>& all_results, vector<int>& one_result, int start, int k) 
 {
     if (k == 0) {
         all_results.push_back(one_result);
