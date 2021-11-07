@@ -38,4 +38,11 @@ public:
         
         return true;
     } 
+    
+    bool isAnagram_way2(string s, string t) {
+        if (s.size() != t.size()) return false;
+        sort(s.begin(), s.end());
+        sort(t.begin(), t.end());
+        return s == t;
+    }
 };
