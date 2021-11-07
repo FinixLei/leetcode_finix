@@ -8,14 +8,14 @@ int mySqrt(int x)
     if (x == 0) return 0;
     if (x <= 3) return 1;
     
-    unsigned long  ul_x = (unsigned long)x; 
-    unsigned long min_num = 0;
-    unsigned long max_num = ul_x; 
-    unsigned long result = x/2; 
+    long  ul_x = (unsigned long)x; 
+    long min_num = 0;
+    long max_num = ul_x; 
+    long result = x/2; 
     
     while (true) {
-        unsigned long r1 = result * result; 
-        unsigned long r2 = (result+1) * (result+1);
+        long r1 = result * result; 
+        long r2 = (result+1) * (result+1);
         
         if (r1 <= ul_x && r2 > ul_x) break; 
 
