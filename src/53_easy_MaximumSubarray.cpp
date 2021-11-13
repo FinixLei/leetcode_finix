@@ -65,6 +65,33 @@ int maxSubArray(vector<int>& nums)
     return final_result;
 }
 
+int maxSubArray_way2(vector<int>& nums) 
+{
+    if (nums.size() == 0) return 0;
+    vector<int> result(nums.size(), 0);
+
+    int finalResult = nums[0]; 
+    result[0] = nums[0];
+    for(int i=1; i<nums.size(); i++) {
+        result[i] = max(result[i-1]+nums[i], nums[i]);
+        finalResult = result[i] > finalResult ? result[i] : finalResult;
+    }
+    return finalResult;
+}
+
+int maxSubArray_way3(vector<int>& nums) 
+{
+    if (nums.size() == 0) return 0;
+    
+    int finalResult = nums[0]; 
+    int lastValue = nums[0];
+    for(int i=1; i<nums.size(); i++) {
+        lastValue = max(lastValue+nums[i], nums[i]);
+        finalResult = lastValue > finalResult ? lastValue : finalResult;
+    }
+    return finalResult;
+}
+
 int main()
 {
     vector<int> nums = {};
