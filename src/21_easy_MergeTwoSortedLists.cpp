@@ -14,51 +14,49 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
-
-ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) 
-{
-    if (l1 == NULL && l2 == NULL) return NULL;
-    if (l1 == NULL && l2 != NULL) return l2;
-    if (l1 != NULL && l2 == NULL) return l1;
+ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+    if (l1 == nullptr && l2 == nullptr) return nullptr;
+    if (l1 && l2 == nullptr) return l1;
+    if (l1 == nullptr && l2) return l2;
     
-    ListNode * head = NULL;
-    if (l1->val <= l2->val) {
-        head = l1;
-        l1 = l1->next;
-        head->next = NULL;
-    }
-    else {
-        head = l2;
-        l2 = l2->next;
-        head->next = NULL;
-    }
+    ListNode * head = nullptr;
+    ListNode * p = nullptr;
     
-    ListNode * t = head;
-    
-    while (true) {
-        if (l1 == NULL) {
-            t->next = l2;
-            break;
-        }
-        else if (l2 == NULL) {
-            t->next = l1;
-            break;
-        }
-        else {
+    while (l1 || l2) {
+        if (l1 && l2) {
             if (l1->val <= l2->val) {
-                t->next = l1;
-                l1 = l1->next;
-                t = t->next;
-                if (t) t->next = NULL;
-            } 
-            else {
-                t->next = l2;
-                l2 = l2->next;
-                t = t->next;
-                if (t) t->next = NULL;
+                if (head) {
+                    p->next = l1; 
+                    l1 = l1->next; 
+                    p = p->next;
+                }
+                else {  // head is nullptr 
+                    head = l1;
+                    l1 = l1->next;
+                    p = head;
+                }
             }
+            else {
+                if (head) {
+                    p->next = l2; 
+                    l2 = l2->next; 
+                    p = p->next; 
+                }
+                else {  // head is nullptr 
+                    head = l2;
+                    l2 = l2->next; 
+                    p = head;
+                }
+            }
+        } 
+        else if (l1 && l2 == nullptr) {
+            p->next = l1;
+            break;
+        }
+        else if (l1 == nullptr && l2) {
+            p->next = l2;
+            break;
         }
     }
-    
     return head;
 }
