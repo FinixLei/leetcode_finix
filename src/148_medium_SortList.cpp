@@ -71,12 +71,12 @@ public:
         if (beg == nullptr || beg == end || beg->next == nullptr) return beg;
         
         ListNode * p1 = beg; 
-        ListNode * p2 = beg->next->next; 
+        ListNode * p2 = beg->next; 
         
-        while (p2) {
+        while (p2!=end) {
             p1 = p1->next; 
             p2 = p2->next; 
-            if (p2 == nullptr) break;
+            if (p2 == end) break;
             p2 = p2->next; 
         }
         
@@ -91,11 +91,7 @@ public:
 
 
     ListNode* sortList(ListNode* head) {
-        if (head == nullptr || head->next == nullptr) return head;
-        ListNode * lastNode = head;
-        while(lastNode->next) lastNode = lastNode->next;
-        
-        ListNode * result = _sort(head, nullptr);
-        return result;
+        if (head == nullptr || head->next == nullptr) return head;    
+        return _sort(head, nullptr);
     }
 };
