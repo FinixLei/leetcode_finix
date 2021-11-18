@@ -20,29 +20,17 @@ public:
         
         while (l1 || l2) {
             if (l1 && l2) {
-                if (l1->val <= l2->val) {
-                    if (head) {
-                        p->next = l1; 
-                        p = p->next;
-                        l1 = l1->next; 
-                    }
-                    else {  // head is nullptr 
-                        head = l1;
-                        p = head;
-                        l1 = l1->next;
-                    }
+                if (l1->val > l2->val) swap(l1, l2);
+                
+                if (head) {
+                    p->next = l1; 
+                    p = p->next;
+                    l1 = l1->next; 
                 }
-                else {
-                    if (head) {
-                        p->next = l2; 
-                        p = p->next; 
-                        l2 = l2->next; 
-                    }
-                    else {  // head is nullptr 
-                        head = l2;
-                        p = head;
-                        l2 = l2->next; 
-                    }
+                else {  // head is nullptr 
+                    head = l1;
+                    p = head;
+                    l1 = l1->next;
                 }
             } 
             else if (l1 && l2 == nullptr) {
@@ -56,23 +44,14 @@ public:
         }
         return head;
     }
-        
-    void print_list(ListNode * h) {
-        if(!h) cout << "empty list" << endl;
-        cout << "list: ";
-        while (h) {
-            cout << h->val << " ";
-            h = h->next;
-        }
-        cout << endl;
-    }
 
     ListNode * _sort(ListNode * beg, ListNode * end) {
         if (beg == nullptr || beg == end || beg->next == nullptr) return beg;
         
         ListNode * p1 = beg; 
-        ListNode * p2 = beg->next; 
+        ListNode * p2 = beg->next;  // note here, a skill
         
+        // find out the middle node of current list
         while (p2!=end) {
             p1 = p1->next; 
             p2 = p2->next; 
@@ -80,6 +59,7 @@ public:
             p2 = p2->next; 
         }
         
+        // p1 is the middle node, p1->next is the start node of the second list
         ListNode * secondStart = p1->next; 
         p1->next = nullptr;
         
@@ -88,7 +68,6 @@ public:
         ListNode * h = mergeTwoLists(h1, h2);
         return h;
     }
-
 
     ListNode* sortList(ListNode* head) {
         if (head == nullptr || head->next == nullptr) return head;    
