@@ -7,32 +7,46 @@
 #include <iostream>
 using namespace std;
 
+inline bool _check(const string& s, int i, int j) {
+    if (i==j) return true;
+    while (i<j) {
+        if (s[i++] != s[j--]) return false;
+    }
+    return true;
+}
 
 string longestPalindrome(string s) {
-    char result[1024];
-    char array[1024];
-    strcpy(array, s.c_str()); 
+    int size = s.size();
+    if (size == 0 ||size == 1) return s;
     
-    int size = s.size();    
-    int length = 0;
+    int maxLength = 0;
+    int beg = 0, end = 0;
     
-    for (int i=0; i<size; i++) {
-        for (int j=length+1; j<=size-i; j++) {
-            int k = 0;
-            while (k <= j-1-k) {
-                if (array[i+k] != array[i+j-1-k]) break;
-                k++;
+    for(int i=0; i<size; i++) {
+        if (size-i <= maxLength) break;
+        
+        int j = s.find_last_of(s[i]);
+        while (i < j) {
+            if (_check(s, i, j)) {
+                int length = j-i+1;
+                if (maxLength < length) {
+                    maxLength = length;
+                    beg = i; 
+                    end = j;
+                }
+                break;
             }
-            if (k > j-1-k) {
-                length = j;
-                strncpy(result, &array[i], length); 
-                result[length] = '\0';
+            else {
+                j = s.find_last_of(s[i], j-1);
             }
         }
+        
     }
-    
+    string result;
+    copy(s.begin()+beg, s.begin()+end+1, back_inserter(result));
     return result;
 }
+
 
 int main()
 {
