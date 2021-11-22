@@ -22,16 +22,14 @@ bool isPalindrome(int x) {
     if (x < 10) return true;
     
     vector<int> vec;
-    int t = x;
-    while (t > 0) {
-        vec.push_back(t%10);
-        t /= 10;
+    while (x > 0) {
+        vec.push_back(x%10);
+        x /= 10;
     }
     
-    unsigned long num = 0;
-    for (auto i : vec) {
-        num = num * 10 + i;
-        if (num > INT_MAX) return false;
+    int i=0, j=vec.size()-1;
+    while (i<j) {
+        if (vec[i++] != vec[j--]) return false;
     }
-    return num == x; 
+    return true;
 }
