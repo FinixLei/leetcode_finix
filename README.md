@@ -99,6 +99,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  96  | medium |   C++    | [Unique Binary Search Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/96_medium_UniqueBinarySearchTrees.cpp)
  97  | medium |   C++    | [Interleaving String](https://github.com/FinixLei/leetcode_finix/blob/master/src/97_medium_InterleavingString.cpp)
  98  | medium |   C++    | [Validate Binary Search Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/98_medium_ValidateBinarySearchTree.cpp)
+ 99  | medium |   C++    | [Recover Binary Search Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/99_medium_RecoverBinarySearchTree.cpp)
  100 |  easy  |   C++    | [Same Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/100_easy_SameTree.cpp)
  108 |  easy  |   C++    | [Convert Sorted Array to Binary Search Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/108_easy_ConvertSortedArrayToBinarySearchTree.cpp)
  109 | medium |   C++    | [Convert Sorted List to Binary Search Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/109_medium_ConvertSortedListToBinarySearchTree.cpp)
