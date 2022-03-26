@@ -89,6 +89,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  82  | medium |   C++    | [Remove Duplicates from Sorted List II](https://github.com/FinixLei/leetcode_finix/blob/master/src/82_medium_RemoveDuplicatesFromSortedListII.cpp)
  83  |  easy  |   C++    | [Remove Duplicates from Sorted List](https://github.com/FinixLei/leetcode_finix/blob/master/src/83_easy_RemoveDuplicatesFromSortedList.cpp)
  84  |  hard  |   C++    | [Largest Rectangle in Histogram](https://github.com/FinixLei/leetcode_finix/blob/master/src/84_hard_LargestRectangleInHistogram.cpp)
+ 85  |  hard  |   C++    | [Maximal Rectangle](https://github.com/FinixLei/leetcode_finix/blob/master/src/85_hard_MaximalRectangle.cpp)
  89  | medium |   C++    | [Gray Code](https://github.com/FinixLei/leetcode_finix/blob/master/src/89_medium_GrayCode.cpp)
  90  | medium |   C++    | [Subsets II](https://github.com/FinixLei/leetcode_finix/blob/master/src/90_medium_SubsetsII.cpp)
  91  | medium |   C++    | [Decode Ways](https://github.com/FinixLei/leetcode_finix/blob/master/src/91_medium_DecodeWays.cpp)
