@@ -90,6 +90,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  83  |  easy  |   C++    | [Remove Duplicates from Sorted List](https://github.com/FinixLei/leetcode_finix/blob/master/src/83_easy_RemoveDuplicatesFromSortedList.cpp)
  84  |  hard  |   C++    | [Largest Rectangle in Histogram](https://github.com/FinixLei/leetcode_finix/blob/master/src/84_hard_LargestRectangleInHistogram.cpp)
  85  |  hard  |   C++    | [Maximal Rectangle](https://github.com/FinixLei/leetcode_finix/blob/master/src/85_hard_MaximalRectangle.cpp), [way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/85_hard_MaximalRectangle_way2.cpp)
+ 86  | medium |   C++    | [Partition List](https://github.com/FinixLei/leetcode_finix/blob/master/src/86_medium_PartitionList.cpp)
  88  |  easy  |   C++    | [Merge Sorted Array](https://github.com/FinixLei/leetcode_finix/blob/master/src/88_easy_MergeSortedArray.cpp)
  89  | medium |   C++    | [Gray Code](https://github.com/FinixLei/leetcode_finix/blob/master/src/89_medium_GrayCode.cpp)
  90  | medium |   C++    | [Subsets II](https://github.com/FinixLei/leetcode_finix/blob/master/src/90_medium_SubsetsII.cpp)
