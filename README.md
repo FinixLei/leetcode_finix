@@ -109,6 +109,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  103 | medium |   C++    | [Binary Tree Zigzag Level Order Traversal](https://github.com/FinixLei/leetcode_finix/blob/master/src/103_medium_BinaryTreeZigzagLevelOrderTraversal.cpp)
  104 |  easy  |   C++    | [Max Depth of Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/104_easy_MaxDepthOfBinaryTree.cpp)
  105 | medium |   C++    | [Construct Binary Tree From Preorder and Inorder Traversal](https://github.com/FinixLei/leetcode_finix/blob/master/src/105_medium_ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp)
+ 106 | medium |   C++    | [Construct Binary Tree From Inorder and Postorder Traversal](https://github.com/FinixLei/leetcode_finix/blob/master/src/106_medium_ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp)
  108 |  easy  |   C++    | [Convert Sorted Array to Binary Search Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/108_easy_ConvertSortedArrayToBinarySearchTree.cpp)
  109 | medium |   C++    | [Convert Sorted List to Binary Search Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/109_medium_ConvertSortedListToBinarySearchTree.cpp)
  112 |  easy  |   C++    | [Path Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/112_easy_PathSum.cpp)

@@ -21,76 +21,52 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-void print_vec(vector<int>& vec) {
-    for (auto i : vec) cout << i << " ";
-    cout << endl;
-}
-
-TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-    if (preorder.size() == 0) return nullptr;
+TreeNode * _buildTree(vector<int>& preorder, int poStart, int poEnd, 
+                      vector<int>& inorder,  int ioStart, int ioEnd) 
+{
+    const int size = ioEnd - ioStart + 1;
     
-    TreeNode * root = new TreeNode(preorder[0]);
+    if (size <= 0) return nullptr;
+    
+    TreeNode * root = new TreeNode(preorder[poStart]);
     
     int rootPosInOrder = -1;
-    for (int i=0; i<inorder.size(); i++) {
-        if (inorder[i] == preorder[0]) {
+    for (int i=ioStart; i<=ioEnd; i++) {
+        if (inorder[i] == root->val) {
             rootPosInOrder = i;
             break;
         }
     }
     
-    vector<int> leftInOrder;
-    vector<int> rightInOrder;
-    set<int> leftTreeSet;
+    int leftTreeInorderStart = ioStart;
+    int leftTreeInorderEnd = rootPosInOrder - 1;
+    int rightTreeInorderStart = rootPosInOrder + 1;
+    int rightTreeInorderEnd = ioEnd;
     
-    for (int i=0; i<rootPosInOrder; i++) {
-        leftInOrder.push_back(inorder[i]);
-        leftTreeSet.insert(inorder[i]);
-    }
-    for (int i=rootPosInOrder+1; i<inorder.size(); i++) {
-        rightInOrder.push_back(inorder[i]);
-    }
+    int leftTreeSize = leftTreeInorderEnd - leftTreeInorderStart + 1;
     
-    vector<int> leftPreOrder;
-    vector<int> rightPreOrder;
+    int leftTreePreorderStart = poStart + 1; 
+    int leftTreePreorderEnd = poStart + leftTreeSize; 
+    int rightTreePreorderStart = leftTreePreorderEnd + 1;
+    int rightTreePreorderEnd = poEnd;
     
-    int rightTreeStartInPreOrder = preorder.size();
-    for (int i=1; i<preorder.size(); i++) {
-        if (leftTreeSet.find(preorder[i]) == leftTreeSet.end()) {
-            rightTreeStartInPreOrder = i;
-            break;
-        }
-    }
-    
-    for (int i=1; i<rightTreeStartInPreOrder; i++) {
-        leftPreOrder.push_back(preorder[i]);
-    }
-    for (int i=rightTreeStartInPreOrder; i< preorder.size(); i++) {
-        rightPreOrder.push_back(preorder[i]);
-    }
-    
-    // cout << "Left Tree Size: " << leftTreeSet.size() << endl;
-    // cout << "Left PreOrder: \n";
-    // print_vec(leftPreOrder);
-    // cout << "Right PreOrder: \n";
-    // print_vec(rightPreOrder);
-    // 
-    // cout << "Left InOrder: \n";
-    // print_vec(leftInOrder);
-    // cout << "Right InOrder: \n";
-    // print_vec(rightInOrder);
-    // cout << "------------------------" << endl;
-    
-    root->left = buildTree(leftPreOrder, leftInOrder);
-    root->right = buildTree(rightPreOrder, rightInOrder);
+    root->left  = _buildTree(preorder, leftTreePreorderStart, leftTreePreorderEnd, 
+                             inorder,  leftTreeInorderStart,  leftTreeInorderEnd);
+    root->right = _buildTree(preorder, rightTreePreorderStart, rightTreePreorderEnd, 
+                             inorder,  rightTreeInorderStart,  rightTreeInorderEnd);
     
     return root;
 }
 
+TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+    return _buildTree(preorder, 0, preorder.size()-1, 
+                      inorder,  0, inorder.size()-1);
+}
+
 int main()
 {
-    vector<int> preorder = {1, 2};
-    vector<int> inorder = {2, 1};
+    vector<int> preorder = {3,9,20,15,7};
+    vector<int> inorder  = {9,3,15,20,7};
     
     TreeNode * root = buildTree(preorder, inorder);
     
