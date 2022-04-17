@@ -9,7 +9,7 @@
 
 #include <iostream>
 #include <vector>
-#include <set>
+#include <unordered_map>
 using namespace std;
 
 
@@ -22,13 +22,9 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-void print_vec(vector<int>& vec) {
-    for (auto i : vec) cout << i << " ";
-    cout << endl;
-}
-
 TreeNode * _buildTree(const vector<int>& inorder, int inorderStart, int inorderEnd,
-                      const vector<int>& postorder, int postorderStart,int postorderEnd)
+                      const vector<int>& postorder, int postorderStart,int postorderEnd, 
+                      unordered_map<int, int>& inMap)
 {
     const int size = inorderEnd - inorderStart + 1;
     
@@ -36,13 +32,7 @@ TreeNode * _buildTree(const vector<int>& inorder, int inorderStart, int inorderE
     
     TreeNode * root = new TreeNode(postorder[postorderEnd]);
     
-    int rootPosInOrder = -1;
-    for (int i=inorderStart; i<=inorderEnd; i++) {
-        if (inorder[i] == root->val) {
-            rootPosInOrder = i;
-            break;
-        }
-    }
+    int rootPosInOrder = inMap[root->val]; 
     
     int leftInorderStart = inorderStart;
     int leftInorderEnd = rootPosInOrder - 1;
@@ -57,18 +47,21 @@ TreeNode * _buildTree(const vector<int>& inorder, int inorderStart, int inorderE
     int rightPostorderEnd = postorderEnd - 1;
     
     root->left = _buildTree(inorder, leftInorderStart, leftInorderEnd, 
-                           postorder, leftPostorderStart, leftPostorderEnd);
+                           postorder, leftPostorderStart, leftPostorderEnd, inMap);
     root->right = _buildTree(inorder, rightInorderStart, rightInorderEnd, 
-                            postorder, rightPostorderStart, rightPostorderEnd);
+                            postorder, rightPostorderStart, rightPostorderEnd, inMap);
     
     return root;
 }
     
 TreeNode * buildTree(vector<int>& inorder, vector<int>& postorder)
 {
+    unordered_map<int, int> inMap;
+    for (int i=0; i<inorder.size(); i++) inMap[inorder[i]] = i;
+    
     return _buildTree(inorder, 0, inorder.size()-1, 
-                      postorder, 0, postorder.size()-1); 
-}    
+                      postorder, 0, postorder.size()-1, inMap); 
+}
 
 int main()
 {

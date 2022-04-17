@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <vector>
-#include <set>
+#include <unordered_map>
 using namespace std;
 
 
@@ -22,21 +22,15 @@ struct TreeNode {
 };
 
 TreeNode * _buildTree(vector<int>& preorder, int poStart, int poEnd, 
-                      vector<int>& inorder,  int ioStart, int ioEnd) 
+                      vector<int>& inorder,  int ioStart, int ioEnd, 
+                      unordered_map<int, int>& inorderHashMap) 
 {
     const int size = ioEnd - ioStart + 1;
-    
     if (size <= 0) return nullptr;
     
     TreeNode * root = new TreeNode(preorder[poStart]);
     
-    int rootPosInOrder = -1;
-    for (int i=ioStart; i<=ioEnd; i++) {
-        if (inorder[i] == root->val) {
-            rootPosInOrder = i;
-            break;
-        }
-    }
+    int rootPosInOrder = inorderHashMap[root->val];
     
     int leftTreeInorderStart = ioStart;
     int leftTreeInorderEnd = rootPosInOrder - 1;
@@ -51,16 +45,22 @@ TreeNode * _buildTree(vector<int>& preorder, int poStart, int poEnd,
     int rightTreePreorderEnd = poEnd;
     
     root->left  = _buildTree(preorder, leftTreePreorderStart, leftTreePreorderEnd, 
-                             inorder,  leftTreeInorderStart,  leftTreeInorderEnd);
+                             inorder,  leftTreeInorderStart,  leftTreeInorderEnd, inorderHashMap);
     root->right = _buildTree(preorder, rightTreePreorderStart, rightTreePreorderEnd, 
-                             inorder,  rightTreeInorderStart,  rightTreeInorderEnd);
+                             inorder,  rightTreeInorderStart,  rightTreeInorderEnd, inorderHashMap);
     
     return root;
 }
 
 TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+    unordered_map<int, int> inorderHashMap;
+    for (int i=0; i<inorder.size(); i++) {
+        inorderHashMap[inorder[i]] = i;
+    }
+    
     return _buildTree(preorder, 0, preorder.size()-1, 
-                      inorder,  0, inorder.size()-1);
+                      inorder,  0, inorder.size()-1,
+                      inorderHashMap);
 }
 
 int main()
