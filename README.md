@@ -114,6 +114,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  108 |  easy  |   C++    | [Convert Sorted Array to Binary Search Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/108_easy_ConvertSortedArrayToBinarySearchTree.cpp)
  109 | medium |   C++    | [Convert Sorted List to Binary Search Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/109_medium_ConvertSortedListToBinarySearchTree.cpp)
  110 |  easy  |   C++    | [Balanced Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/110_easy_BalancedBinaryTree.cpp)
+ 111 |  easy  |   C++    | [Minimum Depth of Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/111_easy_MinimumDepthOfBinaryTree.cpp)
  112 |  easy  |   C++    | [Path Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/112_easy_PathSum.cpp)
  113 | medium |   C++    | [Path Sum II](https://github.com/FinixLei/leetcode_finix/blob/master/src/113_easy_PathSumII.cpp)
  128 | medium |   C++    | [Longest Consecutive Sequence](https://github.com/FinixLei/leetcode_finix/blob/master/src/128_medium_LongestConsecutiveSequence.cpp)
