@@ -122,6 +122,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  116 | medium |   C++    | [Populating Next Right Pointes in Each Node](https://github.com/FinixLei/leetcode_finix/blob/master/src/116_medium_PopulatingNextRightPointersInEachNode.cpp)
  117 | medium |   C++    | [Populating Next Right Pointes in Each Node II](https://github.com/FinixLei/leetcode_finix/blob/master/src/117_medium_PopulatingNextRightPointersInEachNodeII.cpp)
  118 |  easy  |   C++    | [Pascal Triangle](https://github.com/FinixLei/leetcode_finix/blob/master/src/118_easy_PascalTriangle.cpp)
+ 119 |  easy  |   C++    | [Pascal Triangle II](https://github.com/FinixLei/leetcode_finix/blob/master/src/119_easy_PascalTriangleII.cpp)
  128 | medium |   C++    | [Longest Consecutive Sequence](https://github.com/FinixLei/leetcode_finix/blob/master/src/128_medium_LongestConsecutiveSequence.cpp)
  148 | medium |   C++    | [Sort List](https://github.com/FinixLei/leetcode_finix/blob/master/src/148_medium_SortList.cpp)
  208 | medium |   C++    | [Implement Trie Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/208_medium_TrieTree.cpp)
