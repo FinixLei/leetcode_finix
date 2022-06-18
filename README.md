@@ -123,6 +123,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  117 | medium |   C++    | [Populating Next Right Pointes in Each Node II](https://github.com/FinixLei/leetcode_finix/blob/master/src/117_medium_PopulatingNextRightPointersInEachNodeII.cpp)
  118 |  easy  |   C++    | [Pascal Triangle](https://github.com/FinixLei/leetcode_finix/blob/master/src/118_easy_PascalTriangle.cpp)
  119 |  easy  |   C++    | [Pascal Triangle II](https://github.com/FinixLei/leetcode_finix/blob/master/src/119_easy_PascalTriangleII.cpp)
+ 120 | medium |   C++    | [Triangle](https://github.com/FinixLei/leetcode_finix/blob/master/src/120_medium_Triangle.cpp)
  121 |  easy  |   C++    | [Best Time to Buy and Sell Stock](https://github.com/FinixLei/leetcode_finix/blob/master/src/121_easy_BestTimeToBuyAndSellStock.cpp)
  122 | medium |   C++    | [Best Time to Buy and Sell Stock II](https://github.com/FinixLei/leetcode_finix/blob/master/src/122_medium_BestTimeToBuyAndSellStockII.cpp)
  128 | medium |   C++    | [Longest Consecutive Sequence](https://github.com/FinixLei/leetcode_finix/blob/master/src/128_medium_LongestConsecutiveSequence.cpp)
