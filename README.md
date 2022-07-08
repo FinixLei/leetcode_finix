@@ -127,6 +127,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  121 |  easy  |   C++    | [Best Time to Buy and Sell Stock](https://github.com/FinixLei/leetcode_finix/blob/master/src/121_easy_BestTimeToBuyAndSellStock.cpp)
  122 | medium |   C++    | [Best Time to Buy and Sell Stock II](https://github.com/FinixLei/leetcode_finix/blob/master/src/122_medium_BestTimeToBuyAndSellStockII.cpp)
  123 |  hard  |   C++    | [Best Time to Buy and Sell Stock III](https://github.com/FinixLei/leetcode_finix/blob/master/src/123_hard_BestTimeToBuyAndSellStockIII.cpp)
+ 125 |  easy  |   C++    | [Valid Palindrome](https://github.com/FinixLei/leetcode_finix/blob/master/src/125_easy_ValidPalindrome.cpp)
  128 | medium |   C++    | [Longest Consecutive Sequence](https://github.com/FinixLei/leetcode_finix/blob/master/src/128_medium_LongestConsecutiveSequence.cpp)
  148 | medium |   C++    | [Sort List](https://github.com/FinixLei/leetcode_finix/blob/master/src/148_medium_SortList.cpp)
  208 | medium |   C++    | [Implement Trie Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/208_medium_TrieTree.cpp)
