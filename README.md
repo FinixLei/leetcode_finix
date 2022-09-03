@@ -134,6 +134,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  128 | medium |   C++    | [Longest Consecutive Sequence](https://github.com/FinixLei/leetcode_finix/blob/master/src/128_medium_LongestConsecutiveSequence.cpp)
  129 | medium |   C++    | [Sum Root to Leaf Numbers](https://github.com/FinixLei/leetcode_finix/blob/master/src/129_medium_SumRootToLeafNumbers.cpp)
  130 | medium |   C++    | [Surrounded Regions](https://github.com/FinixLei/leetcode_finix/blob/master/src/130_medium_SurroundedRegions.cpp)
+ 131 | medium |   C++    | [Palindrome Patitioning](https://github.com/FinixLei/leetcode_finix/blob/master/src/131_medium_PalindromePatitioning.cpp)
  148 | medium |   C++    | [Sort List](https://github.com/FinixLei/leetcode_finix/blob/master/src/148_medium_SortList.cpp)
  208 | medium |   C++    | [Implement Trie Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/208_medium_TrieTree.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
