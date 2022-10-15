@@ -137,6 +137,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  131 | medium |   C++    | [Palindrome Patitioning](https://github.com/FinixLei/leetcode_finix/blob/master/src/131_medium_PalindromePatitioning.cpp)
  133 | medium |   C++    | [Clone Graph](https://github.com/FinixLei/leetcode_finix/blob/master/src/133_medium_CloneGraph.cpp)
  134 | medium |   C++    | [Gas Station](https://github.com/FinixLei/leetcode_finix/blob/master/src/134_medium_GasStation.cpp)
+ 136 |  easy  |   C++    | [Single Number](https://github.com/FinixLei/leetcode_finix/blob/master/src/136_easy_SingleNumber.cpp)
  148 | medium |   C++    | [Sort List](https://github.com/FinixLei/leetcode_finix/blob/master/src/148_medium_SortList.cpp)
  208 | medium |   C++    | [Implement Trie Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/208_medium_TrieTree.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
