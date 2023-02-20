@@ -37,14 +37,14 @@ public:
             isPaliArray.push_back(oneDimArray);
         }
         
-        // 1.2> generate the results for all isPaliArray[i][j] 
-        // this only needs to check if s[i] == s[j]
-        // this step generates the results for all the double char strings 
+        // 1.2> generate the results for all isPaliArray[i][i+1] 
+        // this only needs to check if s[i] == s[i+1]
+        // this step generates the results for all the 2-char strings 
         for (int i=0; i<size-1; i++) {
             if (s[i] == s[i+1]) isPaliArray[i][i+1] = true; 
         }
         
-        // 1.3> this step generates the results for all the 3-char, 4-char, ..., (n-1)-char strings. 
+        // 1.3> this step generates the results for all the 3-char, 4-char, ..., n-char strings. 
         // once we have all the results of 1-char strings, then we can deduce the results of 3-char strings;
         // once we have all the results of 2-char strings, then we can deduce all the results of 4-char strings;
         // and so on; 
