@@ -136,6 +136,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  129 | medium |   C++    | [Sum Root to Leaf Numbers](https://github.com/FinixLei/leetcode_finix/blob/master/src/129_medium_SumRootToLeafNumbers.cpp)
  130 | medium |   C++    | [Surrounded Regions](https://github.com/FinixLei/leetcode_finix/blob/master/src/130_medium_SurroundedRegions.cpp)
  131 | medium |   C++    | [Palindrome Patitioning](https://github.com/FinixLei/leetcode_finix/blob/master/src/131_medium_PalindromePatitioning.cpp)
+ 132 |  hard  |   C++    | [Palindrome Patitioning II](https://github.com/FinixLei/leetcode_finix/blob/master/src/132_hard_PalidromePartitionII.cpp)
  133 | medium |   C++    | [Clone Graph](https://github.com/FinixLei/leetcode_finix/blob/master/src/133_medium_CloneGraph.cpp)
  134 | medium |   C++    | [Gas Station](https://github.com/FinixLei/leetcode_finix/blob/master/src/134_medium_GasStation.cpp)
  136 |  easy  |   C++    | [Single Number](https://github.com/FinixLei/leetcode_finix/blob/master/src/136_easy_SingleNumber.cpp)
