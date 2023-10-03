@@ -145,6 +145,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  139 | medium |  Java    | [Word Break](https://github.com/FinixLei/leetcode_finix/blob/master/src/139_medium_WordBreak.java)
  140 |  hard  |  Java    | [Word Break II](https://github.com/FinixLei/leetcode_finix/blob/master/src/140_hard_WordBreakII.java)
  141 |  easy  |   C++    | [Linked List Cycle](https://github.com/FinixLei/leetcode_finix/blob/master/src/141_easy_LinkedListCycle.cpp)
+ 142 | medium |  Java    | [Linked List Cycle II](https://github.com/FinixLei/leetcode_finix/blob/master/src/142_medium_LinkedListCycleII.cpp)
  148 | medium |   C++    | [Sort List](https://github.com/FinixLei/leetcode_finix/blob/master/src/148_medium_SortList.cpp)
  208 | medium |   C++    | [Implement Trie Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/208_medium_TrieTree.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
