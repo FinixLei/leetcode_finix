@@ -1,4 +1,4 @@
-// Given the root of a binary tree, return the preorder traversal of its nodes' values.
+// Given the root of a binary tree, return the postorder traversal of its nodes' values.
 
 struct TreeNode {
     int val;
@@ -13,13 +13,12 @@ class Solution {
 private:
     void helper(TreeNode* root, vector<int>& vec) {
         if (root == nullptr) return;
-        vec.push_back(root->val);
         if (root->left) helper(root->left, vec);
         if (root->right) helper(root->right, vec);
+        vec.push_back(root->val);
     }
-
 public:
-    vector<int> preorderTraversal(TreeNode* root) {
+    vector<int> postorderTraversal(TreeNode* root) {
         vector<int> result;
         helper(root, result);
         return result;
