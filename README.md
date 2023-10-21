@@ -147,6 +147,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  141 |  easy  |   C++    | [Linked List Cycle](https://github.com/FinixLei/leetcode_finix/blob/master/src/141_easy_LinkedListCycle.cpp)
  142 | medium |  Java    | [Linked List Cycle II](https://github.com/FinixLei/leetcode_finix/blob/master/src/142_medium_LinkedListCycleII.java)
  143 | medium |  Java    | [Reorder List](https://github.com/FinixLei/leetcode_finix/blob/master/src/143_medium_ReorderList.java)
+ 144 |  easy  |   C++    | [Binary Tree Preorder Traversal](https://github.com/FinixLei/leetcode_finix/blob/master/src/144_easy_BinaryTreePreorderTraversal.cpp)
  148 | medium |   C++    | [Sort List](https://github.com/FinixLei/leetcode_finix/blob/master/src/148_medium_SortList.cpp)
  208 | medium |   C++    | [Implement Trie Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/208_medium_TrieTree.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
