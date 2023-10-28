@@ -150,6 +150,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  144 |  easy  |   C++    | [Binary Tree Preorder Traversal](https://github.com/FinixLei/leetcode_finix/blob/master/src/144_easy_BinaryTreePreorderTraversal.cpp)
  145 |  easy  |   C++    | [Binary Tree Postorder Traversal](https://github.com/FinixLei/leetcode_finix/blob/master/src/145_easy_BinaryTreePostorderTraversal.cpp)
  146 | medium |   C++    | LRU Cache [way-1](https://github.com/FinixLei/leetcode_finix/blob/master/src/146_medium_LRUCache_way1.cpp), [way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/146_medium_LRUCache_way2.cpp)
+ 147 | medium |   C++    | [Insertion Sort List](https://github.com/FinixLei/leetcode_finix/blob/master/src/147_medium_InsertionSortList.cpp)
  148 | medium |   C++    | [Sort List](https://github.com/FinixLei/leetcode_finix/blob/master/src/148_medium_SortList.cpp)
  208 | medium |   C++    | [Implement Trie Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/208_medium_TrieTree.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
