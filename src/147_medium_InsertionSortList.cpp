@@ -41,10 +41,9 @@ private:
             p1 = p2;
             p2 = p2->next;
         }
-        if (node->val > p1->val) {
-            p1->next = node;
-            node->next = nullptr;
-        }
+        // if get here, it means node should be the last node of the new list 
+        p1->next = node;
+        node->next = nullptr;
         return currHead;
     }
 
