@@ -154,6 +154,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  147 | medium |   C++    | [Insertion Sort List](https://github.com/FinixLei/leetcode_finix/blob/master/src/147_medium_InsertionSortList.cpp)
  148 | medium |   C++    | [Sort List](https://github.com/FinixLei/leetcode_finix/blob/master/src/148_medium_SortList.cpp)
  149 |  hard  |  Java    | [Max Points on A Line](https://github.com/FinixLei/leetcode_finix/blob/master/src/149_hard_MaxPointsOnALine.java)
+ 150 | medium |  Java    | Evaluate Reverse Polish Notation [way-1](https://github.com/FinixLei/leetcode_finix/blob/master/src/150_medium_EvaluateReversePolishNotation_way1.java), [way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/150_medium_EvaluateReversePolishNotation_way2.java)
  208 | medium |   C++    | [Implement Trie Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/208_medium_TrieTree.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  238 | medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
