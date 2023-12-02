@@ -43,9 +43,9 @@ int maxProfit(vector<int>& prices) {
     int profit = 0;
     
     for (int v : prices) {
-        if (v < minPrice) minPrice = v;
         if (v - minPrice > profit) profit = v - minPrice;
+        if (v < minPrice) minPrice = v;
     }
     
-    return maxValue;
+    return profit;
 }
