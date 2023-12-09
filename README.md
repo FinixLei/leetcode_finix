@@ -159,7 +159,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  152 | medium |  Java    | [Maxium Product Sub Array](https://github.com/FinixLei/leetcode_finix/blob/master/src/152_medium_MaxiumProductSubArray.java)
  153 | medium |  Java    | [Find Minimum in Rotated Sorted Array](https://github.com/FinixLei/leetcode_finix/blob/master/src/153_medium_FindMinimumInRotatedSortedArray.java)
  154 |  hard  |  Java    | [Find Minimum in Rotated Sorted Array II](https://github.com/FinixLei/leetcode_finix/blob/master/src/154_hard_FindMinimumInRotatedSortedArrayII.java)
- 155 | medium |   C++    | [Min Stack](https://github.com/FinixLei/leetcode_finix/blob/master/src/155_medium_MinStack.cpp)
+ 155 | medium |   C++    | [Min Stack](https://github.com/FinixLei/leetcode_finix/blob/master/src/155_medium_MinStack.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/155_medium_MinStack_way2.cpp)
  208 | medium |   C++    | [Implement Trie Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/208_medium_TrieTree.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  238 | medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
