@@ -20,42 +20,30 @@ Assume we are dealing with an environment which could only store integers within
 
 */
 
-
 class Solution {
 public:
     int divide(int dividend, int divisor) {
-        int result = 0;
-        long a = dividend;
-        long b = divisor;
-        long d1 = a >= 0? a:-a;
-        long d2 = b > 0? b:-b;
-        
-        if (d1 < d2) {
-            result = 0;
+        // 1. 处理唯一可能溢出的情况
+        if (dividend == INT_MIN && divisor == -1) {
+            return INT_MAX;
         }
-        if (d1 == d2) {
-            if ((dividend>0 && divisor>0) || (dividend<0 && divisor<0)) 
-                result = 1;
-            else
-                result = -1;
-        }
-        if (d1 > d2) {
-            if ((dividend>0 && divisor>0) || (dividend<0 && divisor<0)) {
-                int m = d1 % d2;
-                result = (d1-m)/d2;
-            }
-            if ((dividend>0 && divisor<0) || (dividend<0 && divisor>0)) {
-                int m = d1 % d2;
-                result = -(d1-m)/d2;
-            }
-        }
-        
-   
-        if ((dividend<0 && divisor<0 && result<0) || (dividend>0 && divisor>0 && result<0) ||
-            (dividend>0 && divisor<0 && result>0) || (dividend<0 && divisor>0 && result>0)) {
-            return 2147483647;
-        }
-        return result;
-    }
+        if (divisor == 1) return dividend;
 
+        // 2. 统一转为long处理
+        bool negative = (dividend < 0) ^ (divisor < 0);
+        long a = abs((long) dividend);
+        long b = abs((long) divisor);
+
+        int result = 0;
+
+        // 3. 从最大的倍数开始尝试（2^31）
+        for (int i = 31; i >= 0; i--) {
+            if ((a >> i) >= b) {
+                result += (1 << i);     // 累加 2^i
+                a -= (b << i);          // 减去 b * (2^i)
+            }
+        }
+
+        return negative ? -result : result;
+    }
 };
