@@ -42,7 +42,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  35  |  easy  |   C++    | Search Insert Position [way-1](https://github.com/FinixLei/leetcode_finix/blob/master/src/35_easy_SearchInsertPosition.cpp), [way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/35_easy_SearchInsertPosition_way2.cpp)
  36  | medium |   C++    | [Valid Soduku](https://github.com/FinixLei/leetcode_finix/blob/master/src/36_medium_ValidSudoku.cpp)
  37  |  hard  |   C++    | [Soduku Solver](https://github.com/FinixLei/leetcode_finix/blob/master/src/37_hard_SudokuSolver.cpp)
- 38  |  easy  |   C++    | [Count And Say](https://github.com/FinixLei/leetcode_finix/blob/master/src/38_easy_CountAndSay.cpp)
+ 38  | medium |   C++    | [Count And Say](https://github.com/FinixLei/leetcode_finix/blob/master/src/38_medium_CountAndSay.cpp)
  39  | medium |   C++    | [Combination Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/39_medium_CombinationSum.cpp)
  40  | medium |   C++    | [Combination Sum II](https://github.com/FinixLei/leetcode_finix/blob/master/src/40_medium_CombinationSumII.cpp)
  41  |  hard  |   C++    | [First Missing Positive](https://github.com/FinixLei/leetcode_finix/blob/master/src/41_hard_FirstMissingPositive.cpp)
