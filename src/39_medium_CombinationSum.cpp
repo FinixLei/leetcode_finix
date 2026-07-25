@@ -81,3 +81,76 @@ int main()
     
     return 0;
 }
+
+// Way-2: Essentially the same as way-1 but a little easier to understand
+
+class Solution {
+private:
+    vector<vector<int>> vec = {};
+
+private:
+    // return value means done or not
+    void solve(const vector<int>& candidates, vector<int>& curr_vec, int target, int pos) {
+        int sum = accumulate(curr_vec.begin(), curr_vec.end(), 0);
+        if (sum == target) {
+            vec.push_back(curr_vec);
+            return;
+        }
+        else if (sum > target) {
+            return;
+        }
+
+        for (int i=pos; i<candidates.size(); i++) {
+            curr_vec.push_back(candidates[i]);
+            solve(candidates, curr_vec, target, i);
+            curr_vec.pop_back();
+            while(i+1<candidates.size() && candidates[i] == candidates[i+1]) i++;
+        }
+    }
+
+public:
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<int> curr_vec = {};
+        solve(candidates, curr_vec, target, 0);
+        return vec;
+    }
+};
+
+// Way-3: little different from way-2
+
+class Solution {
+private:
+    vector<vector<int>> vec = {};
+
+private:
+    // return value means done or not
+    void solve(const vector<int>& candidates, vector<int>& curr_vec, int target, int pos) {
+        int sum = accumulate(curr_vec.begin(), curr_vec.end(), 0);
+        if (sum == target) {
+            vec.push_back(curr_vec);
+            return;
+        }
+        else if (sum > target) {
+            return;
+        }
+
+        for (int i=pos; i<candidates.size(); i++) {
+            curr_vec.push_back(candidates[i]);
+            solve(candidates, curr_vec, target, i);
+            curr_vec.pop_back();
+        }
+    }
+
+public:
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<int> curr_vec = {};
+        solve(candidates, curr_vec, target, 0);
+
+        for (auto& v : vec) {
+            sort(v.begin(), v.end());
+        }
+        sort(vec.begin(), vec.end());
+        vec.erase(unique(vec.begin(), vec.end()), vec.end());
+        return vec;
+    }
+};
