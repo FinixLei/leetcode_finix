@@ -50,3 +50,32 @@ int main()
     cout << trap(vec) << endl;
     return 0;
 }
+
+// Way-2. 动态规划法
+
+class Solution {
+public:
+    int trap(vector<int>& height) {
+        const int size = height.size();
+        if (size == 0) return 0;
+
+        vector<int> left_most(size, -1);
+        vector<int> right_most(size, -1);
+
+        left_most[0] = height[0];
+        for (int i=1; i<size; i++) {
+            left_most[i] = max(left_most[i-1], height[i]);
+        }
+
+        right_most[size-1] = height[size-1];
+        for (int i=size-2; i>=0; i--) {
+            right_most[i] = max(right_most[i+1], height[i]);
+        }
+
+        int water = 0;
+        for (int i=0; i<size; i++) {
+            water += (min(left_most[i], right_most[i]) - height[i]);
+        }
+        return water;
+    }
+};
