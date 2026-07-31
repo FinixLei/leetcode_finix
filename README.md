@@ -47,7 +47,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  40  | medium |   C++    | [Combination Sum II](https://github.com/FinixLei/leetcode_finix/blob/master/src/40_medium_CombinationSumII.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/40_medium_CombinationSumII_way_2.cpp)
  41  |  hard  |   C++    | [First Missing Positive](https://github.com/FinixLei/leetcode_finix/blob/master/src/41_hard_FirstMissingPositive.cpp)
  42  |  hard  |   C++    | [Trap Rain Water](https://github.com/FinixLei/leetcode_finix/blob/master/src/42_hard_TrapRainWater.cpp)
- 43  | medium |   C++    | [Multiply Strings](https://github.com/FinixLei/leetcode_finix/blob/master/src/43_medium_MultiplyStrings.cpp)
+ 43  | medium |   C++    | [Multiply Strings](https://github.com/FinixLei/leetcode_finix/blob/master/src/43_medium_MultiplyStrings.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/43_medium_MultiplyStrings_way2.cpp)
  44  |  hard  |   C++    | [Wildcard Matching](https://github.com/FinixLei/leetcode_finix/blob/master/src/44_hard_wildcard_matching.cpp)
  45  |  hard  |   C++    | [Jump Game II](https://github.com/FinixLei/leetcode_finix/blob/master/src/45_hard_JumpGameII.cpp)
  46  | medium |   C++    | [Permutations](https://github.com/FinixLei/leetcode_finix/blob/master/src/46_medium_Permutations.cpp)
