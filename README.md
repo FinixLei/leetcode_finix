@@ -49,7 +49,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  42  |  hard  |   C++    | [Trap Rain Water](https://github.com/FinixLei/leetcode_finix/blob/master/src/42_hard_TrapRainWater.cpp)
  43  | medium |   C++    | [Multiply Strings](https://github.com/FinixLei/leetcode_finix/blob/master/src/43_medium_MultiplyStrings.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/43_medium_MultiplyStrings_way2.cpp)
  44  |  hard  |   C++    | [Wildcard Matching](https://github.com/FinixLei/leetcode_finix/blob/master/src/44_hard_wildcard_matching.cpp)
- 45  |  hard  |   C++    | [Jump Game II](https://github.com/FinixLei/leetcode_finix/blob/master/src/45_hard_JumpGameII.cpp)
+ 45  |  hard  |   C++, Python | [Jump Game II](https://github.com/FinixLei/leetcode_finix/blob/master/src/45_hard_JumpGameII.cpp), [python](https://github.com/FinixLei/leetcode_finix/blob/master/src/45_hard_JumpGameII.py)
  46  | medium |   C++    | [Permutations](https://github.com/FinixLei/leetcode_finix/blob/master/src/46_medium_Permutations.cpp)
  47  | medium |   C++    | [Permutations II](https://github.com/FinixLei/leetcode_finix/blob/master/src/47_medium_PermutationsII.cpp)
  48  | medium |   C++    | [Rotate Image](https://github.com/FinixLei/leetcode_finix/blob/master/src/48_medium_RotateImage.cpp)
