@@ -15,72 +15,35 @@ Output:
 ]
 */
 
-#include <iostream>
-#include <vector>
-#include <set>
-#include <algorithm>
-using namespace std;
+class Solution {
+private:
+    vector<vector<int>> result = {};
 
-void print_vec1(vector<int>& vec)
-{
-    for (auto i : vec) {
-        cout << i << " ";
-    }
-    cout << endl;
-}
-
-void print_vec2(vector<vector<int>>& vec)
-{
-    for (auto v : vec) {
-        for (auto i : v) {
-            cout << i << " ";
+public:
+    void go(vector<int>& nums, vector<int>& visited, vector<int>& tmp_result) {
+        const int size = nums.size();
+        if (tmp_result.size() == size) {
+            result.push_back(tmp_result);
+            return;
         }
-        cout << endl;
-    }
-    cout << endl;
-}
 
-void perm(vector<pair<int, bool>>& vp, vector<int>& item, vector<vector<int>>& result)
-{
-    if (item.size() == vp.size()) {
-        result.push_back(item);
-        return;
-    }
-    
-    for (int i=0; i<vp.size(); i++) {
-        if (vp[i].second == false) { // not used 
-            vp[i].second = true;     // use it 
-            item.push_back(vp[i].first);
-            
-            perm(vp, item, result);
-            
-            item.pop_back();
-            vp[i].second = false;    // recover to not-used 
+        for (int i=0; i<size; i++) {
+            if (visited[i] == 1) continue;  // find one not-visited
+
+            visited[i] = 1;
+            tmp_result.push_back(nums[i]);
+            go(nums, visited, tmp_result);
+            tmp_result.pop_back();
+            visited[i] = 0;
         }
     }
-}
 
-vector<vector<int>> permute(vector<int>& nums) 
-{
-    vector<vector<int>> result;
-    vector<int> item;
-    vector<pair<int, bool>> vp;
-    
-    for (auto i : nums) {
-        vp.push_back(make_pair(i, false));
+    vector<vector<int>> permute(vector<int>& nums) {
+        const int size = nums.size();
+        vector<int> visited(size, 0);
+        vector<int> tmp_result{};
+
+        go(nums, visited, tmp_result);
+        return result;
     }
-    
-    perm(vp, item, result);
-    
-    return result;
-}
-
-int main()
-{
-    vector<int> nums{1, 2, 3};
-    
-    vector<vector<int>> result = permute(nums);
-    print_vec2(result);
-    
-    return 0;
-}
+};
