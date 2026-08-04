@@ -1,18 +1,3 @@
-/*
-Given a collection of numbers that might contain duplicates, return all possible unique permutations.
-
-Example:
-
-Input: [1,1,2]
-Output:
-[
-  [1,1,2],
-  [1,2,1],
-  [2,1,1]
-]
-
-*/
-
 class Solution {
 private:
     vector<vector<int>> result = {};
@@ -31,7 +16,9 @@ private:
             return;
         }
         for (int i=0; i<size; i++) {
-            if (visited[i] == 1) continue;            
+            if (visited[i] == 1) continue;
+            // 核心：去重，在同层中，若前一个是相同的数，且没有被用过，则当前数就不用了，因为同层在之前一定会用第一个相同数
+            if (i >= 1 && nums[i] == nums[i-1] && visited[i-1] == 0) continue;  
             visited[i] = 1;
             tmp.push_back(nums[i]);
             go(nums, tmp);
@@ -50,9 +37,7 @@ public:
         vector<int> tmp{};
         sort(nums.begin(), nums.end());
         go(nums, tmp);
-
-        sort(result.begin(), result.end());
-        result.erase(unique(result.begin(), result.end()), result.end());
+        
         return result;
     }
 };
