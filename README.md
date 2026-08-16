@@ -55,7 +55,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  48  | medium |   C++    | [Rotate Image](https://github.com/FinixLei/leetcode_finix/blob/master/src/48_medium_RotateImage.cpp)
  49  | medium |   C++    | [Group Anagrams](https://github.com/FinixLei/leetcode_finix/blob/master/src/49_medium_GroupAnagrams.cpp)
  50  | medium |   C++    | [Power(x,n)](https://github.com/FinixLei/leetcode_finix/blob/master/src/50_medium_Power.cpp)
- 51  |  hard  |   C++    | [N-Queens](https://github.com/FinixLei/leetcode_finix/blob/master/src/51_hard_N-Queens.cpp)
+ 51  |  hard  |   C++    | [N-Queens](https://github.com/FinixLei/leetcode_finix/blob/master/src/51_hard_N-Queens.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/51_hard_N-Queens_way2.cpp)
  52  |  hard  |   C++    | [N-Queens-II](https://github.com/FinixLei/leetcode_finix/blob/master/src/52_hard_N-Queens-II.cpp)
  53  |  easy  |   C++    | [Maximum Subarray](https://github.com/FinixLei/leetcode_finix/blob/master/src/53_easy_MaximumSubarray.cpp)
  54  | medium |   C++    | [Spiral Matrix](https://github.com/FinixLei/leetcode_finix/blob/master/src/54_medium_SpiralMatrix.cpp)
