@@ -128,3 +128,63 @@ int main()
 
     return 0;
 }
+
+
+// Way-2
+class Solution {
+public:
+    vector<int> spiralOrder(vector<vector<int>>& matrix) {
+        const int rows = matrix.size();
+        if (rows == 0) return {};
+        const int cols = matrix[0].size();
+
+        const int total = rows * cols;
+        int visit_num = 0;
+        vector<int> result;
+        int i=0, j=0;
+        int direction = 0; // 0: ->, 1: down, 2: <-, 3: up
+
+        vector<vector<int>> visited(rows, vector<int>(cols, 0));
+
+        while (visit_num < total) {
+            result.push_back(matrix[i][j]);
+            visited[i][j] = 1;
+            visit_num ++;
+
+            if (direction == 0) {
+                j ++;
+                if (j >= cols || visited[i][j] == 1) {
+                    j --;
+                    i ++;
+                    direction = 1;
+                }
+            }
+            else if (direction == 1) {
+                i ++;
+                if (i >= rows || visited[i][j] == 1) {
+                    i --;
+                    j --;
+                    direction = 2;
+                }
+            }
+            else if (direction == 2) {
+                j --;
+                if (j < 0 || visited[i][j] == 1) {
+                    j ++;
+                    i --;
+                    direction = 3;
+                }
+            }
+            else {  // direction == 3
+                i --;
+                if (visited[i][j] == 1) {  // no need to check if i < 0
+                    i ++;
+                    j ++;
+                    direction = 0;
+                }
+            }
+        }
+
+        return result;
+    }
+};
