@@ -15,34 +15,18 @@ Output: false
 Explanation: You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.
 */
 
-#include <iostream>
-using namespace std;
-
-
-bool canJump(vector<int>& nums) 
-{
-    if (nums.size() == 0) return false; 
-    
-    int last_index = nums.size() - 1;
-    int beg = 0, end = nums[0];
-    
-    while ( beg <= end ) {
-        int current_end = beg + nums[beg]; 
-        if (current_end >= last_index) return true;
-        if (end < current_end) end = current_end;
-        beg++;
+class Solution {
+public:
+    bool canJump(vector<int>& nums) {
+        const int max_pos = nums.size() - 1;
+        int pos = 0;
+        int max_reach = -1;
+        while (true) {
+            max_reach = max(max_reach, pos + nums[pos]);
+            if (max_reach >= max_pos) return true;
+            if (pos + 1 <= max_reach) pos ++;
+            else return false;
+        }
+        return false;
     }
-    return false;
-}
-
-
-int main()
-{
-    vector<int> nums = {2, 3, 1, 1, 4};
-    cout << (canJump(nums) ? "Yes" : "No") << endl;
-    
-    nums = {3,2,1,0,4};
-    cout << (canJump(nums) ? "Yes" : "No") << endl;
-    
-    return 0;
-}
+};
