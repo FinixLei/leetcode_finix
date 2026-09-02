@@ -60,7 +60,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  53  |  easy  |   C++    | [Maximum Subarray](https://github.com/FinixLei/leetcode_finix/blob/master/src/53_easy_MaximumSubarray.cpp)
  54  | medium |   C++    | [Spiral Matrix](https://github.com/FinixLei/leetcode_finix/blob/master/src/54_medium_SpiralMatrix.cpp)
  55  | medium |   C++    | [Jump Game](https://github.com/FinixLei/leetcode_finix/blob/master/src/55_medium_JumpGame.cpp)
- 56  | medium |  Python  | [Merge Intervals](https://github.com/FinixLei/leetcode_finix/blob/master/src/56_medium_MergeIntervals.py)
+ 56  | medium | Python, C++ | [Merge Intervals](https://github.com/FinixLei/leetcode_finix/blob/master/src/56_medium_MergeIntervals.py),[cpp](https://github.com/FinixLei/leetcode_finix/blob/master/src/56_medium_MergeIntervals.cpp)
  57  | medium |   C++    | [Insert Intervals](https://github.com/FinixLei/leetcode_finix/blob/master/src/57_medium_InsertInterval.cpp)
  58  |  easy  |   C++    | [Length Of Last Word](https://github.com/FinixLei/leetcode_finix/blob/master/src/58_easy_LengthOfLastWord.cpp)
  59  | medium |   C++    | [Spiral Matrix II](https://github.com/FinixLei/leetcode_finix/blob/master/src/59_medium_SpiralMatrixII.cpp)
