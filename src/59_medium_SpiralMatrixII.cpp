@@ -10,119 +10,53 @@ Input: n = 1
 Output: [[1]]
 */
 
-#include <vector>
-#include <iostream>
-using namespace std;
+class Solution {
+public:
+    vector<vector<int>> generateMatrix(int n) {
+        vector<vector<int>> v2d(n, vector<int>(n, 0));
 
-template <typename T>
-void print_vec(vector<T> vec)
-{
-    for (auto v : vec) {
-        cout << v << " ";
-    }
-    cout << endl;
-}
+        int direction = 0; // 0: ->, 1: down, 2: <-, 3: up
+        const int total = n * n;
+        int curr_num = 1;
+        int i=0, j=0;
 
-template <typename T>
-void print_vecvec(vector<vector<T>> vv) 
-{
-    for (auto vec : vv) {
-        for (auto v : vec) { cout << v << " "; }
-        cout << endl;
-    }
-}
+        while (curr_num <= total) {
+            v2d[i][j] = curr_num ++;
 
-vector<vector<int>> generateMatrix(int n) 
-{
-    enum DIRECT {
-        RIGHT = 0,
-        DOWN, 
-        LEFT, 
-        UP
-    };
-    
-    int total = n * n;
-    
-    vector<vector<int>> result;
-    result.reserve(n);
-    vector<int> vec; 
-    vec.reserve(n);
-    for (int i=0; i<n; ++i) { vec.push_back(0); }
-    for (int i=0; i<n; ++i) { result.push_back(vec); }
-    
-    int top=0, bottom=n, left=-1, right=n;
-    int direct = RIGHT; 
-    pair<int, int> pos{0, 0};
-    
-    int count = 0;
-    while (count < total) {
-        int x=pos.first, y=pos.second;
-        result[x][y] = ++count;
-        
-        switch (direct) {
-        case RIGHT:
-            y ++;
-            if (y >= right) {
-                y--;
-                x++;
-                direct = DOWN;
-                right--;
+            if (direction == 0) {
+                j ++;
+                if (j >= n || v2d[i][j] > 0) {
+                    j --;
+                    i ++;
+                    direction = 1;
+                }
             }
-            break;
-            
-        case DOWN:
-            x ++;
-            if (x >= bottom) {
-                x--;
-                y--;
-                direct = LEFT;
-                bottom--;
+            else if (direction == 1) {
+                i ++;
+                if (i >= n || v2d[i][j] > 0) {
+                    i --;
+                    j --;
+                    direction = 2;
+                }
             }
-            break;
-            
-        case LEFT:
-            y --;
-            if (y <= left) {
-                y++;
-                x--;
-                direct = UP;
-                left++;
+            else if (direction == 2) {
+                j --;
+                if (j < 0 || v2d[i][j] > 0) {
+                    j ++;
+                    i --;
+                    direction = 3;
+                }
             }
-            break;
-            
-        case UP:
-            x --; 
-            if (x <= top) {
-                x++;
-                y++;
-                direct = RIGHT; 
-                top ++;
+            else {  // direction == 3
+                i --;
+                if (v2d[i][j] > 0) {  // no need to check if i < 0
+                    i ++;
+                    j ++;
+                    direction = 0;
+                }
             }
-            break;
-            
-        default:
-            cout << "Should Never hit here\n";
-            break;
         }
-        
-        pos = make_pair(x, y);
+
+        return v2d;
     }
-    
-    return result;
-}
-
-
-int main()
-{
-    vector<vector<int>> result;
-    result = generateMatrix(3);
-    print_vecvec(result);
-    
-    result = generateMatrix(4);
-    print_vecvec(result);
-    
-    result = generateMatrix(5);
-    print_vecvec(result);
-    
-    return 0;
-}
+};
