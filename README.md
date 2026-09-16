@@ -179,7 +179,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  179 | medium |  Java    | [Largest Number](https://github.com/FinixLei/leetcode_finix/blob/master/src/179_medium_LargestNumber.java)
  187 | medium |  Python  | [Repeated DNA Sequences](https://github.com/FinixLei/leetcode_finix/blob/master/src/187_medium_RepeatedDNASequences.py)
  191 |  easy  |   C++    | [Numbers of 1 Bits](https://github.com/FinixLei/leetcode_finix/blob/master/src/191_easy_NumbersOfOneBits.cpp)
- 206 |  easy  |   C++    | [ReverseLinkedList](https://github.com/FinixLei/leetcode_finix/blob/master/src/206_easy_ReverseLinkedList.cpp)
+ 206 |  easy  |   C++    | [ReverseLinkedList](https://github.com/FinixLei/leetcode_finix/blob/master/src/206_easy_ReverseLinkedList.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/206_easy_ReverseLinkedList_way2.cpp)
  208 | medium |   C++    | [Implement Trie Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/208_medium_TrieTree.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  238 | medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
