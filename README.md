@@ -192,5 +192,6 @@ This repository is only to collect the problems solved by myself in LeetCode.
  322 | medium |   C++    | [Coin Change](https://github.com/FinixLei/leetcode_finix/blob/master/src/322_medium_CoinChange.cpp)
  437 | medium |   C++    | [Path Sum III](https://github.com/FinixLei/leetcode_finix/blob/master/src/437_medium_PathSumIII.cpp)
  543 |  easy  |   C++    | [Diameter Of Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/543_easy_DiameterOfBinaryTree.cpp)
+ 674 |  easy  |   C++    | [Longest Continuous Increasing Subsequence](https://github.com/FinixLei/leetcode_finix/blob/master/src/674_easy_LongestContinuousIncreasingSubsequence.cpp)
  1373|  hard  |   C++    | [Maximum Sum BST in Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/1373_hard_MaxSumBSTinBinaryTree.cpp)
  
