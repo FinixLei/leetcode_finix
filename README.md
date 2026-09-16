@@ -168,7 +168,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  166 | medium |  Java    | [Fraction To Recurring Numbers](https://github.com/FinixLei/leetcode_finix/blob/master/src/166_medium_FractionToRecurringDecimal.java)
  167 | medium |  Java    | [Two Sum II Input Array Is Sorted](https://github.com/FinixLei/leetcode_finix/blob/master/src/167_medium_TwoSumII_InputArrayIsSorted.java)
  168 |  easy  |  Python  | [Excel Sheet Column Title](https://github.com/FinixLei/leetcode_finix/blob/master/src/168_easy_ExcelSheetColumnTitle.py)
- 169 |  easy  |  Python  | [Majority Element](https://github.com/FinixLei/leetcode_finix/blob/master/src/169_easy_MajorityElement.java)
+ 169 |  easy  |   C++    | [Majority Element](https://github.com/FinixLei/leetcode_finix/blob/master/src/169_easy_MajorityElement.cpp)
  171 |  easy  |  Python  | [Excel Sheet Column Number](https://github.com/FinixLei/leetcode_finix/blob/master/src/171_easy_ExcelSheetColumnNumber.py)
  172 | medium |  Java    | [Factorial Trailing Zeroes](https://github.com/FinixLei/leetcode_finix/blob/master/src/172_medium_FactorialTrailingZeroes.java)
  173 | medium |  Java    | [Binary Search Tree Iterator](https://github.com/FinixLei/leetcode_finix/blob/master/src/173_medium_BinarySearchTreeIterator.java),[cpp version](https://github.com/FinixLei/leetcode_finix/blob/master/src/173_medium_BinarySearchTreeIterator.cpp)
