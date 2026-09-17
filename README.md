@@ -187,6 +187,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  242 |  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
  258 |  easy  |   C++    | [Add Digits](https://github.com/FinixLei/leetcode_finix/blob/master/src/258_easy_AddDigits.cpp)
  263 |  easy  |   C++    | [Ugly Number](https://github.com/FinixLei/leetcode_finix/blob/master/src/263_easy_UglyNumber.cpp)
+ 274 | medium |   C++    | [H Index](https://github.com/FinixLei/leetcode_finix/blob/master/src/274_medium_Hindex.cpp)
  289 | medium |   C++    | [Game of Life](https://github.com/FinixLei/leetcode_finix/blob/master/src/289_medium_GameOfLife.cpp)
  290 |  easy  |   C++    | [Word Pattern](https://github.com/FinixLei/leetcode_finix/blob/master/src/290_easy_WordPattern.cpp)
  292 |  easy  |   C++    | [Nim Game](https://github.com/FinixLei/leetcode_finix/blob/master/src/292_easy_NimGame.cpp)
