@@ -195,6 +195,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  292 |  easy  |   C++    | [Nim Game](https://github.com/FinixLei/leetcode_finix/blob/master/src/292_easy_NimGame.cpp)
  300 | medium |   C++    | [Longest Increasing Subsequence](https://github.com/FinixLei/leetcode_finix/blob/master/src/300_medium_LongestIncreasingSubsequence.cpp)
  322 | medium |   C++    | [Coin Change](https://github.com/FinixLei/leetcode_finix/blob/master/src/322_medium_CoinChange.cpp)
+ 329 |  easy  | C++,Python | [Is Subsequence](https://github.com/FinixLei/leetcode_finix/blob/master/src/329_easy_IsSubsequence.cpp),[way-2-Python](https://github.com/FinixLei/leetcode_finix/blob/master/src/329_easy_IsSubsequence.py)
  437 | medium |   C++    | [Path Sum III](https://github.com/FinixLei/leetcode_finix/blob/master/src/437_medium_PathSumIII.cpp)
  543 |  easy  |   C++    | [Diameter Of Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/543_easy_DiameterOfBinaryTree.cpp)
  674 |  easy  |   C++    | [Longest Continuous Increasing Subsequence](https://github.com/FinixLei/leetcode_finix/blob/master/src/674_easy_LongestContinuousIncreasingSubsequence.cpp)
