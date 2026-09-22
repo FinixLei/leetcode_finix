@@ -166,7 +166,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  164 | medium |   C++    | [Maximum Gap](https://github.com/FinixLei/leetcode_finix/blob/master/src/164_medium_MaximumGap.cpp)
  165 | medium |  Java    | [Compare Version Numbers](https://github.com/FinixLei/leetcode_finix/blob/master/src/165_medium_CompareVersionNumbers.java)
  166 | medium |  Java    | [Fraction To Recurring Numbers](https://github.com/FinixLei/leetcode_finix/blob/master/src/166_medium_FractionToRecurringDecimal.java)
- 167 | medium |  Java    | [Two Sum II Input Array Is Sorted](https://github.com/FinixLei/leetcode_finix/blob/master/src/167_medium_TwoSumII_InputArrayIsSorted.java)
+ 167 | medium |  Java    | [Two Sum II Input Array Is Sorted](https://github.com/FinixLei/leetcode_finix/blob/master/src/167_medium_TwoSumII_InputArrayIsSorted.java),[way-2-CPP](https://github.com/FinixLei/leetcode_finix/blob/master/src/167_medium_TwoSumII_InputArrayIsSorted.cpp)
  168 |  easy  |  Python  | [Excel Sheet Column Title](https://github.com/FinixLei/leetcode_finix/blob/master/src/168_easy_ExcelSheetColumnTitle.py)
  169 |  easy  |   C++    | [Majority Element](https://github.com/FinixLei/leetcode_finix/blob/master/src/169_easy_MajorityElement.cpp)
  171 |  easy  |  Python  | [Excel Sheet Column Number](https://github.com/FinixLei/leetcode_finix/blob/master/src/171_easy_ExcelSheetColumnNumber.py)
