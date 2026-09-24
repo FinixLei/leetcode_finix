@@ -5,17 +5,15 @@ private:
 public:
     bool isHappy(int n) {
         if (n == 1) return true;
+        if (numCache.contains(n)) return false;
+        numCache.insert(n);
 
         int s = 0;
-        while (n >= 10) {
+        while (n > 0) {
             int tmp = n % 10;
             s += tmp * tmp;
             n = n / 10;
         }
-        s += n*n; 
-
-        if (numCache.contains(s)) return false;
-        numCache.insert(s);
         return isHappy(s);
     }
 };
