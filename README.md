@@ -191,6 +191,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  210 | medium |   C++    | [Course Schedule II](https://github.com/FinixLei/leetcode_finix/blob/master/src/210_medium_CourseScheduleII.cpp)
  211 | medium |   C++    | [Design Add and Search Words Data Structure](https://github.com/FinixLei/leetcode_finix/blob/master/src/211_medium_DesignAddAndSearchWords.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/211_medium_DesignAddAndSearchWords_way2.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
+ 228 |  easy  |   C++    | [Summary Ranges](https://github.com/FinixLei/leetcode_finix/blob/master/src/228_easy_SummaryRanges.cpp)
  238 | medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
  242 |  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
  258 |  easy  |   C++    | [Add Digits](https://github.com/FinixLei/leetcode_finix/blob/master/src/258_easy_AddDigits.cpp)
