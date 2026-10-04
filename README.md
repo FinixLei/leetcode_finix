@@ -159,7 +159,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  152 | medium |  Java    | [Maxium Product Sub Array](https://github.com/FinixLei/leetcode_finix/blob/master/src/152_medium_MaxiumProductSubArray.java)
  153 | medium |  Java    | [Find Minimum in Rotated Sorted Array](https://github.com/FinixLei/leetcode_finix/blob/master/src/153_medium_FindMinimumInRotatedSortedArray.java)
  154 |  hard  |  Java    | [Find Minimum in Rotated Sorted Array II](https://github.com/FinixLei/leetcode_finix/blob/master/src/154_hard_FindMinimumInRotatedSortedArrayII.java)
- 155 | medium |   C++    | [Min Stack](https://github.com/FinixLei/leetcode_finix/blob/master/src/155_medium_MinStack.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/155_medium_MinStack_way2.cpp)
+ 155 | medium |   C++    | [Min Stack](https://github.com/FinixLei/leetcode_finix/blob/master/src/155_medium_MinStack.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/155_medium_MinStack_way2.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/155_medium_MinStack_way3.cpp)
  160 |  easy  |   C++    | [Intersection of Two Linked Lists](https://github.com/FinixLei/leetcode_finix/blob/master/src/160_easy_IntersectionOfTwoLinkedLists_way1.cpp)
  160 |  easy  |  Java    | [Intersection of Two Linked Lists](https://github.com/FinixLei/leetcode_finix/blob/master/src/160_easy_IntersectionOfTwoLinkedLists_way2.java)
  162 | medium |   C++    | [Find Peak Element](https://github.com/FinixLei/leetcode_finix/blob/master/src/162_medium_FindPeakElement.cpp)
