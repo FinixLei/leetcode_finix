@@ -79,3 +79,29 @@ public:
         return water;
     }
 };
+
+// 更好理解以及更好写的way-2
+class Solution {
+public:
+    int trap(vector<int>& height) {
+        const int size = height.size();
+        vector<int> left_most(size);
+        vector<int> right_most(size);
+        int most_left = -1, most_right = -1;
+
+        for (int i=0; i<size; i++) {
+            most_left = max(most_left, height[i]);
+            left_most[i] = most_left;
+        }
+        for (int i=size-1; i>=0; i--) {
+            most_right = max(most_right, height[i]);
+            right_most[i] = most_right;
+        }
+
+        int water = 0;
+        for (int i=0; i<size; i++) {
+            water += (min(left_most[i], right_most[i]) - height[i]);
+        }
+        return water;
+    }
+};
