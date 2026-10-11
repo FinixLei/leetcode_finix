@@ -1,8 +1,3 @@
-# leetcode_finix
-
-This repository is only to collect the problems solved by myself in LeetCode. 
-
-
  No. |  Level | Language | Title 
 -----|--------|----------|-------- 
  1   | medium |   C++    | Two Sum [way-1](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.cpp), [way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way2.cpp), [way-3](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way3.cpp), [way-4](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way4.cpp)
@@ -210,6 +205,7 @@ This repository is only to collect the problems solved by myself in LeetCode.
  383 |  easy  |  Python  | [Ransom Note](https://github.com/FinixLei/leetcode_finix/blob/master/src/383_easy_RansomNote.py)
  437 | medium |   C++    | [Path Sum III](https://github.com/FinixLei/leetcode_finix/blob/master/src/437_medium_PathSumIII.cpp)
  452 | medium |   C++    | [Minimum Number of Arrows to Burst Balloons](https://github.com/FinixLei/leetcode_finix/blob/master/src/452_medium_MinNumOfArrowsToBurstBalloons.cpp)
+ 530 | medium |   C++    | [Minimum Absolute Difference In BST](https://github.com/FinixLei/leetcode_finix/blob/master/src/530_medium_MinimumAbsoluteDifferenceInBST.cpp)
  543 |  easy  |   C++    | [Diameter Of Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/543_easy_DiameterOfBinaryTree.cpp)
  674 |  easy  |   C++    | [Longest Continuous Increasing Subsequence](https://github.com/FinixLei/leetcode_finix/blob/master/src/674_easy_LongestContinuousIncreasingSubsequence.cpp)
  1373|  hard  |   C++    | [Maximum Sum BST in Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/1373_hard_MaxSumBSTinBinaryTree.cpp)
