@@ -208,6 +208,7 @@
  452 | medium |   C++    | [Minimum Number of Arrows to Burst Balloons](https://github.com/FinixLei/leetcode_finix/blob/master/src/452_medium_MinNumOfArrowsToBurstBalloons.cpp)
  530 | medium |   C++    | [Minimum Absolute Difference In BST](https://github.com/FinixLei/leetcode_finix/blob/master/src/530_medium_MinimumAbsoluteDifferenceInBST.cpp)
  543 |  easy  |   C++    | [Diameter Of Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/543_easy_DiameterOfBinaryTree.cpp)
+ 637 |  easy  |   C++    | [Average Levels Of Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/637_easy_AverageLevelsOfBinaryTree.cpp)
  674 |  easy  |   C++    | [Longest Continuous Increasing Subsequence](https://github.com/FinixLei/leetcode_finix/blob/master/src/674_easy_LongestContinuousIncreasingSubsequence.cpp)
  1373|  hard  |   C++    | [Maximum Sum BST in Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/1373_hard_MaxSumBSTinBinaryTree.cpp)
  
