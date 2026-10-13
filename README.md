@@ -190,6 +190,7 @@
  224 |  hard  |  Python  | [Basic Calculator](https://github.com/FinixLei/leetcode_finix/blob/master/src/224_hard_BasicCalculator.py)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  228 |  easy  |   C++    | [Summary Ranges](https://github.com/FinixLei/leetcode_finix/blob/master/src/228_easy_SummaryRanges.cpp)
+ 230 | medium |   C++    | [Kth Smallest Element In a Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/230_medium_KthSmallestElementInBST.cpp)
  236 | medium |   C++    | [Lowest Common Ancestor of a Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/236_medium_LowestCommonAncestorOfABinaryTree.cpp)
  238 | medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
  242 |  easy  |   C++    | [Valid Anagram](https://github.com/FinixLei/leetcode_finix/blob/master/src/242_easy_ValidAnagram.cpp)
