@@ -1,6 +1,6 @@
  No. |  Level | Language | Title 
 -----|--------|----------|-------- 
- 1   | medium |   C++    | Two Sum [way-1](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.cpp), [way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way2.cpp), [way-3](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way3.cpp), [way-4](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way4.cpp)
+ 1   | medium | C++,C    | Two Sum [way-1](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.cpp), [way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way2.cpp), [way-3](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way3.cpp), [way-4](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum_way4.cpp),[C version](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.c)
  2   | medium |   C++    | [Add Two Numbers](https://github.com/FinixLei/leetcode_finix/blob/master/src/1_medium_TwoSum.cpp)
  3   | medium |   C++    | [Longest Substring Without Repeated Characters](https://github.com/FinixLei/leetcode_finix/blob/master/src/3_medium_LongestSubstringWithoutRepeatingCharacters.cpp)
  4   |  hard  |   C++    | Median of Two Sorted Arrays [way-1](https://github.com/FinixLei/leetcode_finix/blob/master/src/4_hard_MedianOfTwoSortedArrays.cpp), [way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/4_hard_MedianOfTwoSortedArrays_way2.cpp)
