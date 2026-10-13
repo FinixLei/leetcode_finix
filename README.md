@@ -14,7 +14,7 @@
  12  | medium |   C++    | [Integer to Roman](https://github.com/FinixLei/leetcode_finix/blob/master/src/12_medium_IntegerToRoman.cpp)
  13  |  easy  |   C++    | [Roman to Integer](https://github.com/FinixLei/leetcode_finix/blob/master/src/13_easy_RomanToInteger.cpp)
  14  |  easy  |   C++    | [Longest Common Prefix](https://github.com/FinixLei/leetcode_finix/blob/master/src/14_easy_LongestCommonPrefix.cpp)
- 15  | medium |   C++    | [3 Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/15_medium_3Sum.cpp)
+ 15  | medium | C++,C    | [3 Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/15_medium_3Sum.cpp),[C version](https://github.com/FinixLei/leetcode_finix/blob/master/src/15_medium_3Sum.c)
  16  | medium |   C++    | [3 Sum Closet](https://github.com/FinixLei/leetcode_finix/blob/master/src/16_medium_3Sum_closest.cpp)
  17  | medium |   C++    | [Letters Combinations](https://github.com/FinixLei/leetcode_finix/blob/master/src/17_medium_LettersCombinations.cpp)
  18  | medium |   C++    | [4 Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/18_medium_4Sum.cpp)
