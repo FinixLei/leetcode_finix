@@ -180,6 +180,7 @@
  201 | medium |   C++    | [Bitwise AND of Numbers Range](https://github.com/FinixLei/leetcode_finix/blob/master/src/201_medium_BitwiseANDofNumbersRange.cpp)
  202 |  easy  |   C++    | [Happy Number](https://github.com/FinixLei/leetcode_finix/blob/master/src/202_easy_HappyNumber.cpp)
  203 |  easy  |   C++    | [Remove Linked List Elements](https://github.com/FinixLei/leetcode_finix/blob/master/src/203_easy_RemoveLinkedListElements.cpp)
+ 204 | medium |    C     | [Count Primes](https://github.com/FinixLei/leetcode_finix/blob/master/src/204_medium_CountPrimes.c)
  205 |  easy  |  Python  | [Isomorphic Strings](https://github.com/FinixLei/leetcode_finix/blob/master/src/205_easy_IsomorphicStrings.py)
  206 |  easy  |   C++    | [ReverseLinkedList](https://github.com/FinixLei/leetcode_finix/blob/master/src/206_easy_ReverseLinkedList.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/206_easy_ReverseLinkedList_way2.cpp)
  207 | medium |  Python  | [Course Schedule](https://github.com/FinixLei/leetcode_finix/blob/master/src/207_medium_CourseSchedule.py)
