@@ -12,9 +12,7 @@ public:
         }
 
         if (left == 0) return 0;
-        for (int i=0; i<count; i++) {
-            left = left << 1;
-        }
+        left <<= count;
         return left;
     }
 };
