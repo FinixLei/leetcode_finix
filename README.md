@@ -174,6 +174,7 @@
  179 | medium |  Java    | [Largest Number](https://github.com/FinixLei/leetcode_finix/blob/master/src/179_medium_LargestNumber.java)
  187 | medium |  Python  | [Repeated DNA Sequences](https://github.com/FinixLei/leetcode_finix/blob/master/src/187_medium_RepeatedDNASequences.py)
  189 | medium |   C++    | [Rotate Array](https://github.com/FinixLei/leetcode_finix/blob/master/src/189_medium_RotateArray.cpp)
+ 190 |  easy  |    C     | [Reverse Bits](https://github.com/FinixLei/leetcode_finix/blob/master/src/190_easy_ReverseBits.c)
  191 |  easy  |   C++    | [Numbers of 1 Bits](https://github.com/FinixLei/leetcode_finix/blob/master/src/191_easy_NumbersOfOneBits.cpp)
  199 | medium |   C++    | [Binary Tree Right Side View](https://github.com/FinixLei/leetcode_finix/blob/master/src/199_medium_BinaryTreeRightSideView.cpp)
  200 | medium |  C,C++   | [Number of Islands](https://github.com/FinixLei/leetcode_finix/blob/master/src/200_medium_NumberOfIslands.cpp),[C version](https://github.com/FinixLei/leetcode_finix/blob/master/src/200_medium_NumberOfIslands.c)
