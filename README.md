@@ -189,7 +189,7 @@
  209 | medium |   C++    | [Minimum Size Subarray Sum](https://github.com/FinixLei/leetcode_finix/blob/master/src/209_medium_MinimumSizeSubarraySum.cpp)
  210 | medium |   C++    | [Course Schedule II](https://github.com/FinixLei/leetcode_finix/blob/master/src/210_medium_CourseScheduleII.cpp)
  211 | medium |   C++    | [Design Add and Search Words Data Structure](https://github.com/FinixLei/leetcode_finix/blob/master/src/211_medium_DesignAddAndSearchWords.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/211_medium_DesignAddAndSearchWords_way2.cpp)
- 212 |  hard  |   C++    | [Word Search II](https://github.com/FinixLei/leetcode_finix/blob/master/src/212_hard_WordSearchII_way1.cpp)
+ 212 |  hard  |   C++    | [Word Search II](https://github.com/FinixLei/leetcode_finix/blob/master/src/212_hard_WordSearchII_way1.cpp),[way 2](https://github.com/FinixLei/leetcode_finix/blob/master/src/212_hard_WordSearchII.cpp)
  213 | medium |   C++    | [House Robber II](https://github.com/FinixLei/leetcode_finix/blob/master/src/213_medium_HouseRobberII.cpp)
  222 | medium |   C++    | [Count Complete Tree Nodes](https://github.com/FinixLei/leetcode_finix/blob/master/src/222_medium_CountCompleteTreeNodes.cpp)
  224 |  hard  |  Python  | [Basic Calculator](https://github.com/FinixLei/leetcode_finix/blob/master/src/224_hard_BasicCalculator.py)
