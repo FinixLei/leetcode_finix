@@ -191,6 +191,7 @@
  211 | medium |   C++    | [Design Add and Search Words Data Structure](https://github.com/FinixLei/leetcode_finix/blob/master/src/211_medium_DesignAddAndSearchWords.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/211_medium_DesignAddAndSearchWords_way2.cpp)
  212 |  hard  |   C++    | [Word Search II](https://github.com/FinixLei/leetcode_finix/blob/master/src/212_hard_WordSearchII_way1.cpp),[way 2](https://github.com/FinixLei/leetcode_finix/blob/master/src/212_hard_WordSearchII.cpp)
  213 | medium |   C++    | [House Robber II](https://github.com/FinixLei/leetcode_finix/blob/master/src/213_medium_HouseRobberII.cpp)
+ 217 |  easy  |   C++    | [Contains Duplicate](https://github.com/FinixLei/leetcode_finix/blob/master/src/217_easy_ContainsDuplicate.cpp)
  222 | medium |   C++    | [Count Complete Tree Nodes](https://github.com/FinixLei/leetcode_finix/blob/master/src/222_medium_CountCompleteTreeNodes.cpp)
  224 |  hard  |  Python  | [Basic Calculator](https://github.com/FinixLei/leetcode_finix/blob/master/src/224_hard_BasicCalculator.py)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
