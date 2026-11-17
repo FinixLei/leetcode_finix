@@ -195,6 +195,7 @@
  216 | medium |   C++    | [Combination Sum III](https://github.com/FinixLei/leetcode_finix/blob/master/src/216_medium_CombinationSumIII.cpp)
  217 |  easy  |   C++    | [Contains Duplicate](https://github.com/FinixLei/leetcode_finix/blob/master/src/217_easy_ContainsDuplicate.cpp)
  219 |  easy  |   C++    | [Contains Duplicate II](https://github.com/FinixLei/leetcode_finix/blob/master/src/219_easy_ContainsDuplicateII.cpp)
+ 220 |  hard  |   C++    | [Contains Duplicate III](https://github.com/FinixLei/leetcode_finix/blob/master/src/220_hard_ContainsDuplicateIII.cpp)
  222 | medium |   C++    | [Count Complete Tree Nodes](https://github.com/FinixLei/leetcode_finix/blob/master/src/222_medium_CountCompleteTreeNodes.cpp)
  224 |  hard  |  Python  | [Basic Calculator](https://github.com/FinixLei/leetcode_finix/blob/master/src/224_hard_BasicCalculator.py)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
