@@ -198,6 +198,7 @@
  220 |  hard  |   C++    | [Contains Duplicate III](https://github.com/FinixLei/leetcode_finix/blob/master/src/220_hard_ContainsDuplicateIII.cpp)
  221 | medium |   C++    | [Maximal Square](https://github.com/FinixLei/leetcode_finix/blob/master/src/221_medium_MaximalSquare.cpp)
  222 | medium |   C++    | [Count Complete Tree Nodes](https://github.com/FinixLei/leetcode_finix/blob/master/src/222_medium_CountCompleteTreeNodes.cpp)
+ 223 |  hard  |   C++    | [Rectangle Area](https://github.com/FinixLei/leetcode_finix/blob/master/src/223_hard_RectangleArea.cpp)
  224 |  hard  |  Python  | [Basic Calculator](https://github.com/FinixLei/leetcode_finix/blob/master/src/224_hard_BasicCalculator.py)
  225 |  easy  |   C++    | [Implement Stack using Queues](https://github.com/FinixLei/leetcode_finix/blob/master/src/225_easy_ImplementStackUsingQueues.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
