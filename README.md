@@ -203,6 +203,7 @@
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
  227 | medium |   C++    | [Basic Calculator II](https://github.com/FinixLei/leetcode_finix/blob/master/src/227_medium_BasicCalculatorII_way1.cpp),[way-2](https://github.com/FinixLei/leetcode_finix/blob/master/src/227_medium_BasicCalculatorII_way2.cpp),[way-3](https://github.com/FinixLei/leetcode_finix/blob/master/src/227_medium_BasicCalculatorII_way3.cp)
  228 |  easy  |   C++    | [Summary Ranges](https://github.com/FinixLei/leetcode_finix/blob/master/src/228_easy_SummaryRanges.cpp)
+ 229 | medium |   C++    | [Majority Element II](https://github.com/FinixLei/leetcode_finix/blob/master/src/229_medium_MajorityElementII.cpp)
  230 | medium |   C++    | [Kth Smallest Element In a Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/230_medium_KthSmallestElementInBST.cpp)
  236 | medium |   C++    | [Lowest Common Ancestor of a Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/236_medium_LowestCommonAncestorOfABinaryTree.cpp)
  238 | medium |   C++    | [Product of Array Except self](https://github.com/FinixLei/leetcode_finix/blob/master/src/238_medium_ProductOfArrayExceptSelf.cpp)
