@@ -201,7 +201,7 @@
  224 |  hard  |  Python  | [Basic Calculator](https://github.com/FinixLei/leetcode_finix/blob/master/src/224_hard_BasicCalculator.py)
  225 |  easy  |   C++    | [Implement Stack using Queues](https://github.com/FinixLei/leetcode_finix/blob/master/src/225_easy_ImplementStackUsingQueues.cpp)
  226 |  easy  |   C++    | [Invert Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/226_easy_InvertBinaryTree.cpp)
- 227 | medium |   C++    | [Basic Calculator II](https://github.com/FinixLei/leetcode_finix/blob/master/src/227_medium_BasicCalculatorII_way1.cpp)
+ 227 | medium |   C++    | [Basic Calculator II](https://github.com/FinixLei/leetcode_finix/blob/master/src/227_medium_BasicCalculatorII_way1.cpp),[way2](https://github.com/FinixLei/leetcode_finix/blob/master/src/227_medium_BasicCalculatorII_way2.cpp)
  228 |  easy  |   C++    | [Summary Ranges](https://github.com/FinixLei/leetcode_finix/blob/master/src/228_easy_SummaryRanges.cpp)
  230 | medium |   C++    | [Kth Smallest Element In a Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/230_medium_KthSmallestElementInBST.cpp)
  236 | medium |   C++    | [Lowest Common Ancestor of a Binary Tree](https://github.com/FinixLei/leetcode_finix/blob/master/src/236_medium_LowestCommonAncestorOfABinaryTree.cpp)
